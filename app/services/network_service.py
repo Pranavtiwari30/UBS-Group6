@@ -12,7 +12,7 @@ All rules are deterministic — no AI involved.
 
 from typing import Tuple, List
 from app.utils.logger import get_logger
-from app.utils.helper import parse_timestamp, seconds_between
+from app.utils.helper import seconds_between
 
 logger = get_logger(__name__)
 

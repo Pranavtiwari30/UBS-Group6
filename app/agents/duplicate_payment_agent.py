@@ -99,8 +99,6 @@ def analyze(transaction: dict) -> dict:
         MVP-compliant agent response dict.
     """
     payment_id = transaction.get("payment_id", "UNKNOWN")
-    amount = transaction.get("amount", 0)
-    currency = transaction.get("currency", "")
     beneficiary = transaction.get("beneficiary_details") or {}
     beneficiary_name = beneficiary.get("name", "Unknown")
     client_id = transaction.get("client_id", "")

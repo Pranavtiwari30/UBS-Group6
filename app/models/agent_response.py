@@ -6,7 +6,7 @@ as defined in payment_exception_resolution_agent_mvp_plan.md Section 8.
 """
 
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List
 
 
 class AgentResponse(BaseModel):

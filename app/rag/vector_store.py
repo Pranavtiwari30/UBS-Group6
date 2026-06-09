@@ -10,7 +10,6 @@ Dependencies:
     pip install langchain langchain-community langchain-openai faiss-cpu openai
 """
 
-import os
 from pathlib import Path
 
 from langchain_community.document_loaders import TextLoader

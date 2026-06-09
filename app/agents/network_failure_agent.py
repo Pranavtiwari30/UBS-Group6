@@ -234,7 +234,7 @@ def analyze(transaction: dict) -> dict:
             "risk_level": "HIGH",
             "evidence": [
                 f"prior_retry_events={len(prior_retries)}",
-                f"uncertain_retry_statuses detected (TIMEOUT/UNKNOWN)",
+                "uncertain_retry_statuses detected (TIMEOUT/UNKNOWN)",
                 f"network_acknowledgements={ack_statuses}",
                 f"current_transaction_status={current_status}",
             ],
@@ -277,7 +277,7 @@ def analyze(transaction: dict) -> dict:
             "risk_level": "MEDIUM",
             "evidence": [
                 f"network_acknowledgements={ack_statuses}",
-                f"prior_retry_events=0 (no prior retries)",
+                "prior_retry_events=0 (no prior retries)",
                 f"current_transaction_status={current_status}",
                 f"payment_rail={payment_rail}",
             ],

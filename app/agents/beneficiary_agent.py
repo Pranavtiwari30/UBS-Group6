@@ -60,7 +60,6 @@ def analyze(transaction: dict) -> dict:
     current_status = (transaction.get("current_transaction_status") or "").upper()
     client_contact_history = transaction.get("client_contact_history") or []
     exception_code = transaction.get("exception_code", "")
-    beneficiary_name = beneficiary.get("name", "Unknown")
 
     logger.info(f"[BeneficiaryAgent] Analyzing transaction: {payment_id}")
 
