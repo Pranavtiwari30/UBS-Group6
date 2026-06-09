@@ -15,6 +15,15 @@ Validates:
 
 import sys
 
+# ---------------------------------------------------------------------------
+# Agent imports
+# ---------------------------------------------------------------------------
+from app.agents.beneficiary_agent import analyze as ba
+from app.agents.duplicate_payment_agent import analyze as da
+from app.agents.network_failure_agent import analyze as na
+from app.services.sanctions_service import run_sanctions_screening, check_high_value
+from app.utils.helper import parse_timestamp, seconds_between, normalize_string, safe_get
+
 PASS = "[PASS]"
 FAIL = "[FAIL]"
 results = []
@@ -212,16 +221,6 @@ TX_IRAN_SANCTIONS = {
 }
 
 
-# ---------------------------------------------------------------------------
-# Agent imports
-# ---------------------------------------------------------------------------
-from app.agents.beneficiary_agent import analyze as ba
-from app.agents.duplicate_payment_agent import analyze as da
-from app.agents.network_failure_agent import analyze as na
-from app.services.sanctions_service import run_sanctions_screening, check_high_value
-from app.utils.helper import parse_timestamp, seconds_between, normalize_string, safe_get
-
-
 # ===========================================================================
 # 1. BENEFICIARY AGENT
 # ===========================================================================
@@ -275,7 +274,7 @@ check("Confirmed duplicate -> action=CANCEL_DUPLICATE",
 check("Output has 'classification'",                  "classification" in r,                          r)
 check("Output has 'evidence' list",                   isinstance(r.get("evidence"), list),            r)
 check("automation_allowed=False",                     r["automation_allowed"] is False,               r)
-check("risk_level present",                           r.get("risk_level") in ("LOW","MEDIUM","HIGH","CRITICAL"), r.get("risk_level"))
+check("risk_level present",                           r.get("risk_level") in ("LOW", "MEDIUM", "HIGH", "CRITICAL"), r.get("risk_level"))
 
 section("2b. DuplicatePaymentAgent — plan-specific rules")
 
