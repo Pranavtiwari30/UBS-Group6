@@ -1,0 +1,158 @@
+INTERNATIONAL SANCTIONS RULES — UBS PAYMENTS COMPLIANCE
+Version: 3.1 | Effective: January 2024 | Classification: Internal Use Only
+
+=======================================================================
+1. SANCTIONS FRAMEWORKS APPLICABLE
+=======================================================================
+
+UBS complies with all of the following sanctions regimes:
+
+  - OFAC (Office of Foreign Assets Control) — United States
+  - HM Treasury — United Kingdom
+  - EU Consolidated Sanctions List — European Union
+  - UN Security Council Consolidated List
+  - SECO (State Secretariat for Economic Affairs) — Switzerland
+  - MAS Sanctions List — Singapore
+
+Any conflict between regimes is resolved by applying the most
+restrictive applicable requirement.
+
+=======================================================================
+2. COMPREHENSIVELY SANCTIONED JURISDICTIONS
+=======================================================================
+
+The following countries are subject to COMPREHENSIVE sanctions.
+ALL transactions to/from these jurisdictions are PROHIBITED
+regardless of amount, purpose, or beneficiary.
+
+  - Iran (IR / IRN)
+  - North Korea (KP / PRK)
+  - Syria (SY / SYR)
+  - Cuba (CU / CUB)
+  - Crimea Region (UA-43) — treated as sanctioned territory
+  - Donetsk and Luhansk (DNR/LNR) — separatist-controlled areas
+
+ACTION: BLOCK and FILE REGULATORY REPORT immediately.
+         Do NOT return funds to sender without compliance clearance.
+         Do NOT inform customer of the specific reason for blocking.
+
+=======================================================================
+3. PARTIALLY SANCTIONED / HIGH-RISK JURISDICTIONS
+=======================================================================
+
+The following countries have TARGETED sanctions (specific entities
+and sectors are sanctioned, not the entire country). Transactions
+require enhanced screening and compliance officer review.
+
+  - Russia (RU / RUS)
+      Sanctioned sectors: Defense, Energy, Finance
+      Sanctioned banks: Sberbank, VTB Bank, Gazprombank, Alfa Bank
+      Sanctioned individuals: See OFAC SDN List (updated weekly)
+
+  - Belarus (BY / BLR)
+      Sanctioned entities: State defence enterprises
+      Financial restrictions on sovereign debt transactions
+
+  - Venezuela (VE / VEN)
+      Government and state oil company (PDVSA) transactions blocked
+      Legitimate private sector transactions permitted with EDD
+
+  - Myanmar (MM / MMR)
+      Transactions with military-owned entities prohibited
+      Military junta-linked banks: MEC, UMEHL
+
+  - Sudan (SD / SDN)
+      Targeted financial sanctions on government officials
+
+  - Somalia (SO / SOM) — Terrorist financing risk
+  - Libya (LY / LBY) — Arms embargo monitoring
+  - Yemen (YE / YEM) — Humanitarian exemptions may apply
+  - Afghanistan (AF / AFG) — Taliban entities sanctioned
+  - Mali (ML / MLI) — Coup-related targeted sanctions
+  - Central African Republic (CF / CAF) — Arms embargo
+
+=======================================================================
+4. SANCTIONED ENTITIES (PARTIAL LIST — SDN KEY NAMES)
+=======================================================================
+
+Any transaction involving the following named entities must be
+IMMEDIATELY blocked and escalated to Level 2 compliance:
+
+Financial Institutions:
+  - Tehran Bank / Bank Tejarat (Iran)
+  - Bank Mellat (Iran)
+  - Pyongyang Foreign Trade Bank (North Korea)
+  - Korea Kwangson Banking Corp (North Korea)
+  - Russian Financial Corporation Bank
+  - Tempbank (Russia)
+  - Vnesheconombank (VEB.RF) — Russia
+  - Commercial Bank of Syria
+
+Organisations:
+  - Wagner Group (Russia — PMC)
+  - Lazarus Group (North Korea — cyber criminal org)
+  - Islamic Revolutionary Guard Corps (IRGC)
+  - Hezbollah Financial Unit
+  - Al Qaeda Foundation / Al Nusra Front
+  - Hamas Investment Fund / Izz al-Din al-Qassam Brigades
+  - Hizb ut-Tahrir (various jurisdictions)
+
+Shell company indicators — flag if entity name contains:
+  - "Holdings Limited" with no verifiable address
+  - "International Trade LLC" registered in BVI/Cayman with no website
+  - Generic trading names with accounts in multiple sanctioned countries
+
+=======================================================================
+5. SANCTIONS SCREENING PROCEDURE
+=======================================================================
+
+5.1 SCREENING TRIGGERS
+    Every outgoing and incoming payment must be screened against:
+    a) Beneficiary full name (fuzzy match, >80% similarity threshold)
+    b) Beneficiary bank name and BIC/SWIFT code
+    c) Beneficiary country of residence and account country
+    d) Originator name (for incoming payments)
+    e) Payment reference text (free-text fields)
+
+5.2 MATCH CATEGORIES
+    - TRUE POSITIVE: Confirmed sanctions match → BLOCK immediately
+    - FALSE POSITIVE: No actual match after investigation → RELEASE
+    - POTENTIAL MATCH: Requires human review within 4 business hours
+
+5.3 BLOCKING PROCEDURE
+    - Payment must be held in suspense account
+    - Funds must NOT be credited to beneficiary
+    - Compliance must be notified within 30 minutes of detection
+    - Regulatory report filed within 24 hours (OFAC requires within 10 days)
+
+5.4 PROHIBITED EVASION TECHNIQUES
+    The following activities are red flags for sanctions evasion:
+    - Substituting sanctioned country codes with neighbouring countries
+    - Using front companies or intermediaries in non-sanctioned countries
+    - Breaking large payments into smaller amounts to avoid screening
+    - Using personal accounts to transact on behalf of sanctioned entities
+    - Providing false payment purpose codes
+
+=======================================================================
+6. SWIFT GPI AND SANCTIONS
+=======================================================================
+
+- SWIFT gpi payments carry a unique end-to-end transaction reference (UETR)
+- Any SWIFT payment to a sanctioned SWIFT BIC must be rejected at the
+  gateway before transmission
+- Correspondent bank instructions (field 57) must also be screened
+- Do not use "cover payments" that obscure the original parties
+
+=======================================================================
+7. PENALTIES FOR NON-COMPLIANCE
+=======================================================================
+
+Sanctions violations carry severe penalties:
+
+  - Civil penalties: Up to USD 1 million per violation (OFAC)
+  - Criminal penalties: Up to 20 years imprisonment per violation
+  - Reputational damage and potential loss of US dollar clearing access
+  - Swiss FINMA enforcement action and banking licence risk
+
+All staff are personally liable for willful sanctions violations.
+"I didn't know" is not a defence if proper screening was bypassed.

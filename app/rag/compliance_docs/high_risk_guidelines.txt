@@ -1,0 +1,149 @@
+HIGH-RISK GEOGRAPHY & TRANSACTION GUIDELINES — UBS PAYMENTS
+Version: 2.8 | Effective: January 2024 | Classification: Internal Use Only
+
+=======================================================================
+1. GEOGRAPHIC RISK CLASSIFICATION FRAMEWORK
+=======================================================================
+
+UBS classifies all countries into four risk tiers for payment processing.
+Risk tier determines the level of due diligence and approval required.
+
+TIER 1 — STANDARD RISK (Normal processing)
+  - G7 nations: US, UK, Germany, France, Italy, Japan, Canada
+  - EU/EEA member states (excluding high-risk flagged members)
+  - Singapore, Hong Kong SAR, Australia, New Zealand, Switzerland
+  - South Korea, Japan, Israel, UAE (with enhanced monitoring)
+
+TIER 2 — ELEVATED RISK (Enhanced Due Diligence required)
+  - India, Brazil, Mexico, South Africa, Turkey, Indonesia
+  - Most of Eastern Europe (excluding EU members)
+  - Middle East (excluding Gulf states with clean FATF ratings)
+  - China (PRC) — heightened capital controls monitoring
+
+TIER 3 — HIGH RISK (Senior Compliance Officer approval required)
+  - Countries on FATF Grey List (monitored jurisdictions):
+    * Bulgaria, Burkina Faso, Cameroon, Croatia, Democratic Republic
+      of Congo, Haiti, Jamaica, Mali, Mozambique, Nigeria, Philippines,
+      Senegal, South Africa, South Sudan, Syria, Tanzania, Vietnam
+  - Offshore Financial Centres (OFCs) with weak AML regimes:
+    * British Virgin Islands (BVI), Cayman Islands, Vanuatu,
+      Seychelles, Marshall Islands, Samoa
+
+TIER 4 — PROHIBITED (Comprehensive sanctions — BLOCK all transactions)
+  - Iran, North Korea, Syria, Cuba
+  - Crimea, Donetsk, Luhansk regions (treated as separate from Ukraine)
+  - See sanctions_rules.txt for full list and procedures
+
+=======================================================================
+2. HIGH-RISK AMOUNT THRESHOLDS BY GEOGRAPHY
+=======================================================================
+
+Transactions to Tier 2 countries:
+  - Above USD 5,000: Enhanced beneficiary verification required
+  - Above USD 25,000: Supporting documentation mandatory
+  - Above USD 100,000: Relationship Manager sign-off required
+
+Transactions to Tier 3 countries:
+  - Above USD 1,000: AML analyst review required
+  - Above USD 10,000: Senior AML Officer approval mandatory
+  - Above USD 50,000: Automatic escalation to CCO level
+
+Transactions to Tier 4 (sanctioned) countries:
+  - ANY amount: BLOCK and FILE REPORT
+
+=======================================================================
+3. HIGH-RISK BUSINESS SECTORS
+=======================================================================
+
+The following business types require enhanced scrutiny regardless
+of geography:
+
+  HIGHEST RISK:
+    - Cryptocurrency exchanges and virtual asset service providers (VASPs)
+    - Money service businesses (MSBs) and hawala operators
+    - Cash-intensive businesses (casinos, pawn shops, car dealers)
+    - Arms and defence contractors (without government contracts)
+    - Precious metals and gemstone dealers
+
+  HIGH RISK:
+    - Real estate developers and agents (property-based laundering)
+    - Import/export trading companies with opaque supply chains
+    - Luxury goods retailers (art, yachts, private jets)
+    - Private banking clients with >USD 1M assets
+    - Non-profit organisations (NPOs) receiving foreign funds
+
+  MODERATE RISK:
+    - Law firms and accountancy firms (legal privilege risk)
+    - Trust and company service providers (TCSPs)
+    - Hedge funds and private equity with complex ownership
+
+=======================================================================
+4. INDICATORS OF SUSPICIOUS GEOGRAPHIC PATTERNS
+=======================================================================
+
+4.1 LAYERING RED FLAGS
+    - Payment routed through 3 or more countries before final destination
+    - Round-trip transactions (funds sent out and returned within 30 days)
+    - Use of correspondent banks in high-risk jurisdictions as intermediaries
+    - Multiple currency conversions with no clear business justification
+
+4.2 ROUTING ANOMALIES
+    - SWIFT field 56 (Intermediary Bank) in a Tier 3 country when
+      beneficiary is in a Tier 1 country
+    - Payment purpose code inconsistent with the geographic corridor
+    - Sudden change in beneficiary country compared to historical pattern
+
+4.3 TRADE-BASED MONEY LAUNDERING (TBML)
+    - Invoice amounts significantly above or below market value
+    - Multiple payments for the same invoice number
+    - Goods description inconsistent with payment corridor
+      (e.g., "electronics" payment from a sanctioned country to an arms-
+       embargoed destination)
+
+=======================================================================
+5. DECISION MATRIX FOR GEOGRAPHIC RISK
+=======================================================================
+
+| Scenario                               | Action                          |
+|----------------------------------------|---------------------------------|
+| Tier 1 country, amount < USD 10,000    | Standard processing             |
+| Tier 1 country, amount >= USD 10,000   | CTR filing required             |
+| Tier 2 country, any amount             | EDD required                    |
+| Tier 3 country, amount < USD 1,000     | Analyst review required         |
+| Tier 3 country, amount >= USD 1,000    | Senior officer approval needed  |
+| Tier 4 (sanctioned) country, any       | BLOCK + regulatory report       |
+| Sanctions list entity match            | BLOCK + immediate escalation    |
+| PEP involvement, any geography         | Level 2 approval mandatory      |
+| Structuring pattern detected           | STR filing + hold               |
+
+=======================================================================
+6. CORRESPONDENT BANKING CORRIDORS — RESTRICTED
+=======================================================================
+
+The following payment corridors have been restricted due to historical
+abuse. Transactions on these routes require additional documentation:
+
+  - India → UAE → Pakistan (common trade-based ML route)
+  - Nigeria → China (wire fraud and invoice fraud risk)
+  - Russia → Cyprus → EU (sanctions evasion risk)
+  - Mexico → US (narco-trafficking proceeds risk)
+  - Hong Kong → BVI (complex beneficial ownership)
+  - Turkey → Iran (sanctions evasion via trade finance)
+
+=======================================================================
+7. DOCUMENTATION REQUIREMENTS
+=======================================================================
+
+For Tier 3 countries or amounts above USD 10,000, the following
+documentation must be on file before payment is released:
+
+  Mandatory:
+    - Signed invoice or contract
+    - Proof of relationship with beneficiary
+    - Source of funds declaration
+    - Ultimate Beneficial Owner (UBO) confirmation
+
+  Recommended:
+    - Bank statements for last 3 months
+    - Business registration documents
+    - Director/shareholder identification

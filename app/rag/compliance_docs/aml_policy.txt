@@ -1,0 +1,126 @@
+ANTI-MONEY LAUNDERING (AML) POLICY — UBS PAYMENTS DIVISION
+Version: 4.2 | Effective: January 2024 | Classification: Internal Use Only
+
+=======================================================================
+1. PURPOSE AND SCOPE
+=======================================================================
+
+This policy establishes the Anti-Money Laundering (AML) framework for
+all payment transactions processed by UBS. It applies to all payment
+rails including SWIFT, NEFT, RTGS, IMPS, and UPI. The policy is
+designed to prevent the bank from being used as a conduit for money
+laundering, terrorist financing, or other financial crimes.
+
+=======================================================================
+2. TRANSACTION MONITORING THRESHOLDS
+=======================================================================
+
+2.1 CASH TRANSACTION REPORTING (CTR)
+    - All cash transactions above USD 10,000 (or equivalent) must be
+      reported to the Financial Intelligence Unit (FIU).
+    - Structured transactions (multiple transactions below the threshold
+      designed to avoid reporting) must also be flagged.
+
+2.2 SUSPICIOUS TRANSACTION REPORTING (STR)
+    - Transactions that do not align with a customer's known business
+      profile must be escalated for review.
+    - Unusual velocity: more than 5 transactions within 24 hours to
+      the same beneficiary must be reviewed.
+    - Transactions with round number amounts (e.g., exactly 10,000,
+      50,000, 100,000) require enhanced scrutiny.
+
+2.3 STRUCTURING / SMURFING
+    - Multiple transactions of USD 9,000–9,999 within a 48-hour window
+      from the same client are indicative of structuring.
+    - Such patterns must be flagged and escalated to AML compliance.
+
+=======================================================================
+3. CUSTOMER DUE DILIGENCE (CDD)
+=======================================================================
+
+3.1 STANDARD CDD
+    - All customers must be verified with valid government-issued ID.
+    - Business customers must provide proof of incorporation and
+      ultimate beneficial ownership (UBO) details.
+
+3.2 ENHANCED DUE DILIGENCE (EDD)
+    - Required for Politically Exposed Persons (PEPs).
+    - Required for customers from high-risk jurisdictions.
+    - Required for transactions above USD 10,000.
+    - Required when the source of funds cannot be clearly established.
+
+3.3 POLITICALLY EXPOSED PERSONS (PEPs)
+    - All PEP transactions require Level 2 compliance officer approval.
+    - PEP-related transactions must never be auto-approved.
+    - Immediate family members of PEPs are also subject to EDD.
+
+=======================================================================
+4. HIGH-RISK TRANSACTION PATTERNS
+=======================================================================
+
+4.1 VELOCITY CHECKS
+    - Flag if client sends more than 3 large transactions (>USD 5,000)
+      in a single business day.
+    - Flag if a client's transaction volume increases by >200% compared
+      to their 30-day average without a known business reason.
+
+4.2 GEOGRAPHIC RISK
+    - Transactions to/from high-risk jurisdictions (see sanctions_rules.txt)
+      require additional documentation.
+    - Layering: funds passing through 3+ countries before final
+      destination is a strong red flag.
+
+4.3 PRODUCT RISK
+    - Wire transfers are higher risk than domestic ACH/NEFT.
+    - Cash-equivalent instruments (prepaid cards, crypto exchanges)
+      are highest risk.
+
+=======================================================================
+5. AML HOLD PROCEDURES
+=======================================================================
+
+5.1 INITIATING A HOLD
+    - Any AML hold must be documented with: transaction ID, hold reason,
+      initiating officer, and timestamp.
+    - Funds must be quarantined — not returned to sender until reviewed.
+
+5.2 REVIEW TIMELINE
+    - Initial review must be completed within 24 business hours.
+    - If STR is filed, the transaction remains held until regulatory
+      clearance is received.
+    - Customer must NOT be informed of a hold if an STR has been filed
+      ("tipping off" is a criminal offense in most jurisdictions).
+
+5.3 ESCALATION MATRIX
+    - Level 1: AML Analyst — transactions flagged by automated monitoring
+    - Level 2: Senior AML Officer — PEPs, sanctions hits, STR filing
+    - Level 3: Chief Compliance Officer — >USD 1M, government entities,
+      cross-border regulatory requests
+
+=======================================================================
+6. RECORD KEEPING
+=======================================================================
+
+- All AML-related decisions must be stored for a minimum of 7 years.
+- Audit trails must include: detection method, analyst ID, decision,
+  and regulatory filing reference (if applicable).
+- Records must be available to regulators within 48 hours on request.
+
+=======================================================================
+7. PROHIBITED TRANSACTIONS
+=======================================================================
+
+The following transaction types are strictly prohibited:
+    - Payments to or from entities on the OFAC SDN List
+    - Payments to or from UN Security Council sanctioned entities
+    - Payments involving shell companies with no verifiable business purpose
+    - Transactions designed to obscure the beneficial owner
+    - Payments that facilitate bribery or corruption of public officials
+
+=======================================================================
+8. TRAINING AND ACCOUNTABILITY
+=======================================================================
+
+- All payments staff must complete AML training annually.
+- Failure to report suspicious activity is a disciplinary and legal matter.
+- Whistleblower protections apply to staff reporting AML concerns.

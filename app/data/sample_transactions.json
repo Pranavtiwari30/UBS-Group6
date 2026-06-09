@@ -1,0 +1,231 @@
+[
+  {
+    "payment_id": "PAY-001",
+    "client_id": "CLT-1001",
+    "payment_rail": "NEFT",
+    "amount": 45000.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Rajesh Kumar",
+      "account_number": "12345678901",
+      "ifsc_code": "HDFC0001234",
+      "bank_name": "HDFC Bank",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T09:30:00+00:00",
+    "exception_code": "INVALID_BENEFICIARY",
+    "current_transaction_status": "FAILED",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-002",
+    "client_id": "CLT-1002",
+    "payment_rail": "NEFT",
+    "amount": 15000.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Priya Sharma",
+      "account_number": "98765432101",
+      "ifsc_code": "BADIFSC999",
+      "bank_name": "ICICI Bank",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T10:00:00+00:00",
+    "exception_code": "INVALID_BENEFICIARY",
+    "current_transaction_status": "FAILED",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-003",
+    "client_id": "CLT-1003",
+    "payment_rail": "UPI",
+    "amount": 5000.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Amit Patel",
+      "upi_id": "not_a_valid_upi_id",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T10:15:00+00:00",
+    "exception_code": "INVALID_BENEFICIARY",
+    "current_transaction_status": "FAILED",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-004",
+    "client_id": "CLT-1004",
+    "payment_rail": "UPI",
+    "amount": 2500.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Sneha Reddy",
+      "upi_id": "sneha.reddy@okicici",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T11:00:00+00:00",
+    "exception_code": "DUPLICATE_PAYMENT",
+    "current_transaction_status": "HELD",
+    "prior_retry_events": [
+      {
+        "retry_id": "RTY-001",
+        "timestamp": "2024-01-15T11:02:00+00:00",
+        "status": "RETRIED",
+        "reason": "User clicked submit twice"
+      }
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      {"status": "PENDING", "timestamp": "2024-01-15T11:01:00+00:00"}
+    ]
+  },
+  {
+    "payment_id": "PAY-005",
+    "client_id": "CLT-1005",
+    "payment_rail": "UPI",
+    "amount": 2500.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Sneha Reddy",
+      "upi_id": "sneha.reddy@okicici",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T11:01:30+00:00",
+    "exception_code": "DUPLICATE_PAYMENT",
+    "current_transaction_status": "HELD",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-006",
+    "client_id": "CLT-1006",
+    "payment_rail": "SWIFT",
+    "amount": 75000.00,
+    "currency": "USD",
+    "beneficiary_details": {
+      "name": "Tehran Bank International",
+      "swift_code": "TEHRIR22XXX",
+      "bank_name": "Tehran Bank",
+      "country": "IR"
+    },
+    "submitted_timestamp": "2024-01-15T12:00:00+00:00",
+    "exception_code": "SANCTION_HIT",
+    "current_transaction_status": "HELD",
+    "prior_retry_events": [],
+    "compliance_hold_status": "SANCTION_HOLD",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-007",
+    "client_id": "CLT-9999",
+    "payment_rail": "SWIFT",
+    "amount": 9500.00,
+    "currency": "USD",
+    "beneficiary_details": {
+      "name": "Global Trade Solutions LLC",
+      "swift_code": "GTSLBVI1XXX",
+      "bank_name": "Offshore Private Bank",
+      "country": "VG"
+    },
+    "submitted_timestamp": "2024-01-15T13:00:00+00:00",
+    "exception_code": "AML_HOLD",
+    "current_transaction_status": "HELD",
+    "prior_retry_events": [],
+    "compliance_hold_status": "AML_HOLD",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-008",
+    "client_id": "CLT-1008",
+    "payment_rail": "RTGS",
+    "amount": 250000.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Infrastructure Corp Ltd",
+      "account_number": "11223344556",
+      "ifsc_code": "SBIN0001234",
+      "bank_name": "State Bank of India",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T08:00:00+00:00",
+    "exception_code": "NETWORK_TIMEOUT",
+    "current_transaction_status": "PENDING",
+    "prior_retry_events": [
+      {
+        "retry_id": "RTY-010",
+        "timestamp": "2024-01-15T08:05:00+00:00",
+        "status": "TIMEOUT",
+        "reason": "NEFT gateway did not respond"
+      },
+      {
+        "retry_id": "RTY-011",
+        "timestamp": "2024-01-15T08:10:00+00:00",
+        "status": "TIMEOUT",
+        "reason": "Second attempt also timed out"
+      }
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      {"status": "PARTIAL_ACK", "timestamp": "2024-01-15T08:04:00+00:00"},
+      {"status": "UNKNOWN", "timestamp": "2024-01-15T08:09:00+00:00"}
+    ]
+  },
+  {
+    "payment_id": "PAY-009",
+    "client_id": "CLT-1009",
+    "payment_rail": "IMPS",
+    "amount": 10000.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Kiran Mehta",
+      "account_number": "55566677788",
+      "ifsc_code": "AXIS0001234",
+      "bank_name": "Axis Bank",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T14:00:00+00:00",
+    "exception_code": "NETWORK_TIMEOUT",
+    "current_transaction_status": "PENDING",
+    "prior_retry_events": [
+      {"retry_id": "RTY-020", "timestamp": "2024-01-15T14:01:00+00:00", "status": "TIMEOUT", "reason": "Timeout"},
+      {"retry_id": "RTY-021", "timestamp": "2024-01-15T14:03:00+00:00", "status": "TIMEOUT", "reason": "Timeout"},
+      {"retry_id": "RTY-022", "timestamp": "2024-01-15T14:06:00+00:00", "status": "TIMEOUT", "reason": "Timeout"},
+      {"retry_id": "RTY-023", "timestamp": "2024-01-15T14:10:00+00:00", "status": "TIMEOUT", "reason": "Timeout"},
+      {"retry_id": "RTY-024", "timestamp": "2024-01-15T14:15:00+00:00", "status": "TIMEOUT", "reason": "Timeout"}
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": []
+  },
+  {
+    "payment_id": "PAY-010",
+    "client_id": "CLT-1010",
+    "payment_rail": "NEFT",
+    "amount": 8000.00,
+    "currency": "INR",
+    "beneficiary_details": {
+      "name": "Vikram Singh",
+      "account_number": "44455566677",
+      "ifsc_code": "KOTAK0001234",
+      "bank_name": "Kotak Mahindra Bank",
+      "country": "IN"
+    },
+    "submitted_timestamp": "2024-01-15T15:00:00+00:00",
+    "exception_code": "DUPLICATE_PAYMENT",
+    "current_transaction_status": "HELD",
+    "prior_retry_events": [
+      {"retry_id": "RTY-030", "timestamp": "2024-01-15T15:01:00+00:00", "status": "RETRIED", "reason": "System auto-retry"},
+      {"retry_id": "RTY-031", "timestamp": "2024-01-15T15:02:00+00:00", "status": "RETRIED", "reason": "System auto-retry"},
+      {"retry_id": "RTY-032", "timestamp": "2024-01-15T15:03:00+00:00", "status": "RETRIED", "reason": "System auto-retry"}
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      {"status": "PENDING", "timestamp": "2024-01-15T15:01:30+00:00"}
+    ]
+  }
+]
