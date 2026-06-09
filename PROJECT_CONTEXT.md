@@ -8,7 +8,7 @@ This repository currently contains planning material for a Payment Exception Res
 
 - `plans/payment_exception_resolution_agent_problem_statement.md`: Source problem statement and expected deliverables.
 - `plans/payment_exception_resolution_agent_mvp_plan.md`: Current 1.5-hour MVP implementation plan with best-practice canonical and per-subagent schemas.
-- `plans/payment_exception_resolution_agent_future_production_plan.md`: Current future production implementation plan with versioned schemas, durable workflow, safety gates, idempotency, observability, and rollout strategy.
+- `plans/payment_exception_resolution_agent_future_production_plan.md`: Golden production implementation plan with event-sourced workflow, deterministic policy/safety core, scoped read-only agents, latency budgets, multi-user operations, payment-intent locking, incident response, observability, rollout gates, and alternatives rationale.
 - `plans/payment_exception_orchestrator_mvp_30min_implementation_plan.md`: Focused 30-minute implementation plan for the orchestrator, including phases, adapter design, safety fallbacks, and smoke tests.
 - `plans/payment_exception_subagent_handoff_contract.md`: Explicit input/output contract and integration checklist for teammates building the four subagents.
 - `environment.yml`: Conda environment spec for Python 3.10 orchestrator work.
