@@ -1,0 +1,1502 @@
+[
+  {
+    "case_id": "CASE1001",
+    "payment_id": "PAY1009",
+    "user_id": "U1007",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": "EXC52",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1002",
+    "payment_id": "PAY1069",
+    "user_id": "U1061",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "HIGH",
+    "exception_code": "EXC44",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1003",
+    "payment_id": "PAY1049",
+    "user_id": "U1057",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "LOW",
+    "exception_code": "EXC32",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1004",
+    "payment_id": "PAY1025",
+    "user_id": "U1011",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC90",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1005",
+    "payment_id": "PAY1121",
+    "user_id": "U1065",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": "EXC72",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1006",
+    "payment_id": "PAY1022",
+    "user_id": "U1096",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC69",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1007",
+    "payment_id": "PAY1108",
+    "user_id": "U1022",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "LOW",
+    "exception_code": "EXC66",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1008",
+    "payment_id": "PAY1116",
+    "user_id": "U1084",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC70",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1009",
+    "payment_id": "PAY1184",
+    "user_id": "U1004",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC15",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1010",
+    "payment_id": "PAY1171",
+    "user_id": "U1012",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC91",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1011",
+    "payment_id": "PAY1051",
+    "user_id": "U1026",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1012",
+    "payment_id": "PAY1029",
+    "user_id": "U1031",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC53",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1013",
+    "payment_id": "PAY1167",
+    "user_id": "U1074",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": "EXC83",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1014",
+    "payment_id": "PAY1116",
+    "user_id": "U1084",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC70",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1015",
+    "payment_id": "PAY1158",
+    "user_id": "U1053",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": "EXC68",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1016",
+    "payment_id": "PAY1051",
+    "user_id": "U1026",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1017",
+    "payment_id": "PAY1034",
+    "user_id": "U1001",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": "EXC28",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1018",
+    "payment_id": "PAY1163",
+    "user_id": "U1021",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "HIGH",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1019",
+    "payment_id": "PAY1162",
+    "user_id": "U1038",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1020",
+    "payment_id": "PAY1116",
+    "user_id": "U1084",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC70",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1021",
+    "payment_id": "PAY1055",
+    "user_id": "U1097",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC72",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1022",
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1023",
+    "payment_id": "PAY1162",
+    "user_id": "U1038",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1024",
+    "payment_id": "PAY1006",
+    "user_id": "U1094",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": "EXC44",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1025",
+    "payment_id": "PAY1042",
+    "user_id": "U1041",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1026",
+    "payment_id": "PAY1042",
+    "user_id": "U1041",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1027",
+    "payment_id": "PAY1182",
+    "user_id": "U1036",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC24",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1028",
+    "payment_id": "PAY1152",
+    "user_id": "U1042",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1029",
+    "payment_id": "PAY1182",
+    "user_id": "U1036",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "LOW",
+    "exception_code": "EXC24",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1030",
+    "payment_id": "PAY1034",
+    "user_id": "U1001",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "HIGH",
+    "exception_code": "EXC28",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1031",
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1032",
+    "payment_id": "PAY1028",
+    "user_id": "U1062",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1033",
+    "payment_id": "PAY1148",
+    "user_id": "U1014",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC34",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1034",
+    "payment_id": "PAY1198",
+    "user_id": "U1028",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "MEDIUM",
+    "exception_code": "EXC82",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1035",
+    "payment_id": "PAY1148",
+    "user_id": "U1014",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": "EXC34",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1036",
+    "payment_id": "PAY1189",
+    "user_id": "U1049",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC54",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1037",
+    "payment_id": "PAY1046",
+    "user_id": "U1051",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "HIGH",
+    "exception_code": "EXC50",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1038",
+    "payment_id": "PAY1143",
+    "user_id": "U1067",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": "EXC81",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1039",
+    "payment_id": "PAY1062",
+    "user_id": "U1059",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "MEDIUM",
+    "exception_code": "EXC77",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1040",
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1041",
+    "payment_id": "PAY1038",
+    "user_id": "U1014",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": "EXC42",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1042",
+    "payment_id": "PAY1195",
+    "user_id": "U1022",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1043",
+    "payment_id": "PAY1084",
+    "user_id": "U1021",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": "EXC95",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1044",
+    "payment_id": "PAY1055",
+    "user_id": "U1097",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC72",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1045",
+    "payment_id": "PAY1139",
+    "user_id": "U1036",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": "EXC51",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1046",
+    "payment_id": "PAY1148",
+    "user_id": "U1014",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "HIGH",
+    "exception_code": "EXC34",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1047",
+    "payment_id": "PAY1167",
+    "user_id": "U1074",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC83",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1048",
+    "payment_id": "PAY1129",
+    "user_id": "U1075",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC49",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1049",
+    "payment_id": "PAY1076",
+    "user_id": "U1092",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": "EXC55",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1050",
+    "payment_id": "PAY1071",
+    "user_id": "U1062",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC50",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1051",
+    "payment_id": "PAY1062",
+    "user_id": "U1059",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "MEDIUM",
+    "exception_code": "EXC77",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1052",
+    "payment_id": "PAY1071",
+    "user_id": "U1062",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC50",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1053",
+    "payment_id": "PAY1002",
+    "user_id": "U1088",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1054",
+    "payment_id": "PAY1092",
+    "user_id": "U1097",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "MEDIUM",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1055",
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "MEDIUM",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1056",
+    "payment_id": "PAY1189",
+    "user_id": "U1049",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC54",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1057",
+    "payment_id": "PAY1153",
+    "user_id": "U1061",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1058",
+    "payment_id": "PAY1092",
+    "user_id": "U1097",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1059",
+    "payment_id": "PAY1167",
+    "user_id": "U1074",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC83",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1060",
+    "payment_id": "PAY1197",
+    "user_id": "U1081",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1061",
+    "payment_id": "PAY1084",
+    "user_id": "U1021",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC95",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1062",
+    "payment_id": "PAY1003",
+    "user_id": "U1097",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1063",
+    "payment_id": "PAY1113",
+    "user_id": "U1062",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "HIGH",
+    "exception_code": "EXC46",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1064",
+    "payment_id": "PAY1092",
+    "user_id": "U1097",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1065",
+    "payment_id": "PAY1152",
+    "user_id": "U1042",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "HIGH",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1066",
+    "payment_id": "PAY1186",
+    "user_id": "U1095",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "MEDIUM",
+    "exception_code": "EXC19",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1067",
+    "payment_id": "PAY1025",
+    "user_id": "U1011",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "LOW",
+    "exception_code": "EXC90",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1068",
+    "payment_id": "PAY1139",
+    "user_id": "U1036",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC51",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1069",
+    "payment_id": "PAY1168",
+    "user_id": "U1031",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC59",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1070",
+    "payment_id": "PAY1076",
+    "user_id": "U1092",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC55",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1071",
+    "payment_id": "PAY1106",
+    "user_id": "U1095",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC52",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1072",
+    "payment_id": "PAY1150",
+    "user_id": "U1059",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1073",
+    "payment_id": "PAY1051",
+    "user_id": "U1026",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1074",
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1075",
+    "payment_id": "PAY1060",
+    "user_id": "U1031",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1076",
+    "payment_id": "PAY1076",
+    "user_id": "U1092",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC55",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1077",
+    "payment_id": "PAY1022",
+    "user_id": "U1096",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC69",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1078",
+    "payment_id": "PAY1034",
+    "user_id": "U1001",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC28",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1079",
+    "payment_id": "PAY1198",
+    "user_id": "U1028",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "MEDIUM",
+    "exception_code": "EXC82",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1080",
+    "payment_id": "PAY1054",
+    "user_id": "U1055",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC96",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1081",
+    "payment_id": "PAY1125",
+    "user_id": "U1070",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC56",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1082",
+    "payment_id": "PAY1029",
+    "user_id": "U1031",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "LOW",
+    "exception_code": "EXC53",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1083",
+    "payment_id": "PAY1125",
+    "user_id": "U1070",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "LOW",
+    "exception_code": "EXC56",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1084",
+    "payment_id": "PAY1002",
+    "user_id": "U1088",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1085",
+    "payment_id": "PAY1163",
+    "user_id": "U1021",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1086",
+    "payment_id": "PAY1139",
+    "user_id": "U1036",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC51",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1087",
+    "payment_id": "PAY1155",
+    "user_id": "U1028",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC35",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1088",
+    "payment_id": "PAY1041",
+    "user_id": "U1034",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "LOW",
+    "exception_code": "EXC98",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1089",
+    "payment_id": "PAY1183",
+    "user_id": "U1007",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1090",
+    "payment_id": "PAY1162",
+    "user_id": "U1038",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1091",
+    "payment_id": "PAY1003",
+    "user_id": "U1097",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "HIGH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1092",
+    "payment_id": "PAY1125",
+    "user_id": "U1070",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "HIGH",
+    "exception_code": "EXC56",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1093",
+    "payment_id": "PAY1092",
+    "user_id": "U1097",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1094",
+    "payment_id": "PAY1133",
+    "user_id": "U1100",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC97",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1095",
+    "payment_id": "PAY1018",
+    "user_id": "U1077",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1096",
+    "payment_id": "PAY1168",
+    "user_id": "U1031",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": "EXC59",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1097",
+    "payment_id": "PAY1162",
+    "user_id": "U1038",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1098",
+    "payment_id": "PAY1064",
+    "user_id": "U1026",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC22",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1099",
+    "payment_id": "PAY1152",
+    "user_id": "U1042",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "HIGH",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1100",
+    "payment_id": "PAY1072",
+    "user_id": "U1094",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "LOW",
+    "exception_code": "EXC36",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1101",
+    "payment_id": "PAY1024",
+    "user_id": "U1029",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1102",
+    "payment_id": "PAY1121",
+    "user_id": "U1065",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "LOW",
+    "exception_code": "EXC72",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1103",
+    "payment_id": "PAY1152",
+    "user_id": "U1042",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1104",
+    "payment_id": "PAY1040",
+    "user_id": "U1091",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC24",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1105",
+    "payment_id": "PAY1175",
+    "user_id": "U1054",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC87",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1106",
+    "payment_id": "PAY1092",
+    "user_id": "U1097",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1107",
+    "payment_id": "PAY1071",
+    "user_id": "U1062",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC50",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1108",
+    "payment_id": "PAY1055",
+    "user_id": "U1097",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": "EXC72",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1109",
+    "payment_id": "PAY1150",
+    "user_id": "U1059",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1110",
+    "payment_id": "PAY1132",
+    "user_id": "U1029",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC98",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1111",
+    "payment_id": "PAY1162",
+    "user_id": "U1038",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1112",
+    "payment_id": "PAY1069",
+    "user_id": "U1061",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "LOW",
+    "exception_code": "EXC44",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1113",
+    "payment_id": "PAY1185",
+    "user_id": "U1061",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1114",
+    "payment_id": "PAY1195",
+    "user_id": "U1022",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1115",
+    "payment_id": "PAY1125",
+    "user_id": "U1070",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "LOW",
+    "exception_code": "EXC56",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1116",
+    "payment_id": "PAY1133",
+    "user_id": "U1100",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "MEDIUM",
+    "exception_code": "EXC97",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1117",
+    "payment_id": "PAY1197",
+    "user_id": "U1081",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "MEDIUM",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1118",
+    "payment_id": "PAY1171",
+    "user_id": "U1012",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC91",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1119",
+    "payment_id": "PAY1186",
+    "user_id": "U1095",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "LOW",
+    "exception_code": "EXC19",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1120",
+    "payment_id": "PAY1065",
+    "user_id": "U1041",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1121",
+    "payment_id": "PAY1018",
+    "user_id": "U1077",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1122",
+    "payment_id": "PAY1098",
+    "user_id": "U1020",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "HIGH",
+    "exception_code": "EXC31",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1123",
+    "payment_id": "PAY1084",
+    "user_id": "U1021",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC95",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1124",
+    "payment_id": "PAY1054",
+    "user_id": "U1055",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "MEDIUM",
+    "exception_code": "EXC96",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1125",
+    "payment_id": "PAY1184",
+    "user_id": "U1004",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC15",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1126",
+    "payment_id": "PAY1062",
+    "user_id": "U1059",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC77",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1127",
+    "payment_id": "PAY1055",
+    "user_id": "U1097",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC72",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1128",
+    "payment_id": "PAY1084",
+    "user_id": "U1021",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "LOW",
+    "exception_code": "EXC95",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1129",
+    "payment_id": "PAY1185",
+    "user_id": "U1061",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1130",
+    "payment_id": "PAY1041",
+    "user_id": "U1034",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC98",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1131",
+    "payment_id": "PAY1054",
+    "user_id": "U1055",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": "EXC96",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1132",
+    "payment_id": "PAY1018",
+    "user_id": "U1077",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1133",
+    "payment_id": "PAY1133",
+    "user_id": "U1100",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "MEDIUM",
+    "exception_code": "EXC97",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1134",
+    "payment_id": "PAY1055",
+    "user_id": "U1097",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "MEDIUM",
+    "exception_code": "EXC72",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1135",
+    "payment_id": "PAY1018",
+    "user_id": "U1077",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "CRITICAL",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1136",
+    "payment_id": "PAY1071",
+    "user_id": "U1062",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "LOW",
+    "exception_code": "EXC50",
+    "current_transaction_status": "REJECTED"
+  },
+  {
+    "case_id": "CASE1137",
+    "payment_id": "PAY1025",
+    "user_id": "U1011",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "MEDIUM",
+    "exception_code": "EXC90",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1138",
+    "payment_id": "PAY1022",
+    "user_id": "U1096",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "HIGH",
+    "exception_code": "EXC69",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1139",
+    "payment_id": "PAY1084",
+    "user_id": "U1021",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "HIGH",
+    "exception_code": "EXC95",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1140",
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "LOW",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1141",
+    "payment_id": "PAY1038",
+    "user_id": "U1014",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC42",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1142",
+    "payment_id": "PAY1190",
+    "user_id": "U1025",
+    "exception_type": "INSUFFICIENT_FUNDS",
+    "description": "Auto-generated exception for insufficient_funds",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1143",
+    "payment_id": "PAY1167",
+    "user_id": "U1074",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": "EXC83",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1144",
+    "payment_id": "PAY1028",
+    "user_id": "U1062",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": null,
+    "current_transaction_status": "PENDING"
+  },
+  {
+    "case_id": "CASE1145",
+    "payment_id": "PAY1010",
+    "user_id": "U1046",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "HIGH",
+    "exception_code": "EXC50",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1146",
+    "payment_id": "PAY1029",
+    "user_id": "U1031",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "LOW",
+    "exception_code": "EXC53",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1147",
+    "payment_id": "PAY1107",
+    "user_id": "U1052",
+    "exception_type": "NETWORK_FAILURE",
+    "description": "Auto-generated exception for network_failure",
+    "severity": "LOW",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1148",
+    "payment_id": "PAY1030",
+    "user_id": "U1079",
+    "exception_type": "DUPLICATE_PAYMENT",
+    "description": "Auto-generated exception for duplicate_payment",
+    "severity": "CRITICAL",
+    "exception_code": "EXC45",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1149",
+    "payment_id": "PAY1093",
+    "user_id": "U1036",
+    "exception_type": "COMPLIANCE_HOLD",
+    "description": "Auto-generated exception for compliance_hold",
+    "severity": "CRITICAL",
+    "exception_code": "EXC78",
+    "current_transaction_status": "FAILED"
+  },
+  {
+    "case_id": "CASE1150",
+    "payment_id": "PAY1148",
+    "user_id": "U1014",
+    "exception_type": "INVALID_BENEFICIARY",
+    "description": "Auto-generated exception for invalid_beneficiary",
+    "severity": "CRITICAL",
+    "exception_code": "EXC34",
+    "current_transaction_status": "FAILED"
+  }
+]

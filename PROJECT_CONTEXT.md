@@ -13,7 +13,9 @@ This repository currently contains planning material for a Payment Exception Res
 - `plans/payment_exception_subagent_handoff_contract.md`: Explicit input/output contract and integration checklist for teammates building the four subagents.
 - `environment.yml`: Conda environment spec for Python 3.10 orchestrator work.
 - `payment_exception_mvp/`: Python MVP implementation package for the orchestrator, CLI runner, deterministic classifier, scoped slicers, safety fallbacks, adapter layer, fixtures, and temporary subagent stubs.
+- `mock_server/`: FastAPI mock upstream service. Use `python generate_data.py`, then `uvicorn app:app --reload`. For orchestrator integration, call `GET /exceptions/{case_id}/canonical` or `GET /exceptions/random/canonical`; these join mock exception/payment/compliance records into the `CanonicalPaymentException` shape and normalize generated compliance noise so only `COMPLIANCE_HOLD` produces a live compliance hold.
 - `tests/test_orchestrator_smoke.py`: Pytest smoke tests for the five MVP fixtures and safe subagent-unavailable fallback.
+- `tests/test_mock_api_canonical_adapter.py`: Contract test that every generated mock canonical payload validates and routes to the expected orchestrator agent.
 
 ## Current state
 

@@ -1,0 +1,702 @@
+[
+  {
+    "user_id": "U1001",
+    "name": "User 1",
+    "email": "user1@example.com",
+    "balance": 3263.31,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1002",
+    "name": "User 2",
+    "email": "user2@example.com",
+    "balance": 9299.56,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1003",
+    "name": "User 3",
+    "email": "user3@example.com",
+    "balance": 5228.25,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1004",
+    "name": "User 4",
+    "email": "user4@example.com",
+    "balance": 3976.09,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1005",
+    "name": "User 5",
+    "email": "user5@example.com",
+    "balance": 9731.53,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1006",
+    "name": "User 6",
+    "email": "user6@example.com",
+    "balance": 861.07,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1007",
+    "name": "User 7",
+    "email": "user7@example.com",
+    "balance": 1843.68,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1008",
+    "name": "User 8",
+    "email": "user8@example.com",
+    "balance": 8680.44,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1009",
+    "name": "User 9",
+    "email": "user9@example.com",
+    "balance": 7508.32,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1010",
+    "name": "User 10",
+    "email": "user10@example.com",
+    "balance": 6011.07,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1011",
+    "name": "User 11",
+    "email": "user11@example.com",
+    "balance": 1091.3,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1012",
+    "name": "User 12",
+    "email": "user12@example.com",
+    "balance": 7656.17,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1013",
+    "name": "User 13",
+    "email": "user13@example.com",
+    "balance": 9013.97,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1014",
+    "name": "User 14",
+    "email": "user14@example.com",
+    "balance": 6268.82,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1015",
+    "name": "User 15",
+    "email": "user15@example.com",
+    "balance": 7211.46,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1016",
+    "name": "User 16",
+    "email": "user16@example.com",
+    "balance": 1486.51,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1017",
+    "name": "User 17",
+    "email": "user17@example.com",
+    "balance": 3050.7,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1018",
+    "name": "User 18",
+    "email": "user18@example.com",
+    "balance": 7840.76,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1019",
+    "name": "User 19",
+    "email": "user19@example.com",
+    "balance": 4562.69,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1020",
+    "name": "User 20",
+    "email": "user20@example.com",
+    "balance": 2847.64,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1021",
+    "name": "User 21",
+    "email": "user21@example.com",
+    "balance": 7205.15,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1022",
+    "name": "User 22",
+    "email": "user22@example.com",
+    "balance": 9827.58,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1023",
+    "name": "User 23",
+    "email": "user23@example.com",
+    "balance": 462.81,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1024",
+    "name": "User 24",
+    "email": "user24@example.com",
+    "balance": 755.72,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1025",
+    "name": "User 25",
+    "email": "user25@example.com",
+    "balance": 5783.15,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1026",
+    "name": "User 26",
+    "email": "user26@example.com",
+    "balance": 2539.72,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1027",
+    "name": "User 27",
+    "email": "user27@example.com",
+    "balance": 9648.62,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1028",
+    "name": "User 28",
+    "email": "user28@example.com",
+    "balance": 8211.24,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1029",
+    "name": "User 29",
+    "email": "user29@example.com",
+    "balance": 2564.24,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1030",
+    "name": "User 30",
+    "email": "user30@example.com",
+    "balance": 9622.07,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1031",
+    "name": "User 31",
+    "email": "user31@example.com",
+    "balance": 4986.42,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1032",
+    "name": "User 32",
+    "email": "user32@example.com",
+    "balance": 3316.36,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1033",
+    "name": "User 33",
+    "email": "user33@example.com",
+    "balance": 6365.94,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1034",
+    "name": "User 34",
+    "email": "user34@example.com",
+    "balance": 3507.68,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1035",
+    "name": "User 35",
+    "email": "user35@example.com",
+    "balance": 9822.36,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1036",
+    "name": "User 36",
+    "email": "user36@example.com",
+    "balance": 7993.72,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1037",
+    "name": "User 37",
+    "email": "user37@example.com",
+    "balance": 8335.73,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1038",
+    "name": "User 38",
+    "email": "user38@example.com",
+    "balance": 1552.18,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1039",
+    "name": "User 39",
+    "email": "user39@example.com",
+    "balance": 8445.14,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1040",
+    "name": "User 40",
+    "email": "user40@example.com",
+    "balance": 5241.76,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1041",
+    "name": "User 41",
+    "email": "user41@example.com",
+    "balance": 6260.77,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1042",
+    "name": "User 42",
+    "email": "user42@example.com",
+    "balance": 3108.9,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1043",
+    "name": "User 43",
+    "email": "user43@example.com",
+    "balance": 2487.86,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1044",
+    "name": "User 44",
+    "email": "user44@example.com",
+    "balance": 6358.42,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1045",
+    "name": "User 45",
+    "email": "user45@example.com",
+    "balance": 5331.93,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1046",
+    "name": "User 46",
+    "email": "user46@example.com",
+    "balance": 9797.7,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1047",
+    "name": "User 47",
+    "email": "user47@example.com",
+    "balance": 128.04,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1048",
+    "name": "User 48",
+    "email": "user48@example.com",
+    "balance": 7789.65,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1049",
+    "name": "User 49",
+    "email": "user49@example.com",
+    "balance": 3593.96,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1050",
+    "name": "User 50",
+    "email": "user50@example.com",
+    "balance": 1214.96,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1051",
+    "name": "User 51",
+    "email": "user51@example.com",
+    "balance": 5351.38,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1052",
+    "name": "User 52",
+    "email": "user52@example.com",
+    "balance": 8219.89,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1053",
+    "name": "User 53",
+    "email": "user53@example.com",
+    "balance": 1972.59,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1054",
+    "name": "User 54",
+    "email": "user54@example.com",
+    "balance": 9085.31,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1055",
+    "name": "User 55",
+    "email": "user55@example.com",
+    "balance": 8301.77,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1056",
+    "name": "User 56",
+    "email": "user56@example.com",
+    "balance": 1810.45,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1057",
+    "name": "User 57",
+    "email": "user57@example.com",
+    "balance": 3031.8,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1058",
+    "name": "User 58",
+    "email": "user58@example.com",
+    "balance": 879.23,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1059",
+    "name": "User 59",
+    "email": "user59@example.com",
+    "balance": 4219.16,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1060",
+    "name": "User 60",
+    "email": "user60@example.com",
+    "balance": 1364.91,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1061",
+    "name": "User 61",
+    "email": "user61@example.com",
+    "balance": 9800.83,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1062",
+    "name": "User 62",
+    "email": "user62@example.com",
+    "balance": 2718.77,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1063",
+    "name": "User 63",
+    "email": "user63@example.com",
+    "balance": 6452.57,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1064",
+    "name": "User 64",
+    "email": "user64@example.com",
+    "balance": 804.11,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1065",
+    "name": "User 65",
+    "email": "user65@example.com",
+    "balance": 5113.61,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1066",
+    "name": "User 66",
+    "email": "user66@example.com",
+    "balance": 887.38,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1067",
+    "name": "User 67",
+    "email": "user67@example.com",
+    "balance": 1544.75,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1068",
+    "name": "User 68",
+    "email": "user68@example.com",
+    "balance": 5418.14,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1069",
+    "name": "User 69",
+    "email": "user69@example.com",
+    "balance": 4401.47,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1070",
+    "name": "User 70",
+    "email": "user70@example.com",
+    "balance": 3102.58,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1071",
+    "name": "User 71",
+    "email": "user71@example.com",
+    "balance": 9336.73,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1072",
+    "name": "User 72",
+    "email": "user72@example.com",
+    "balance": 6373.73,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1073",
+    "name": "User 73",
+    "email": "user73@example.com",
+    "balance": 5251.86,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1074",
+    "name": "User 74",
+    "email": "user74@example.com",
+    "balance": 9363.73,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1075",
+    "name": "User 75",
+    "email": "user75@example.com",
+    "balance": 3285.39,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1076",
+    "name": "User 76",
+    "email": "user76@example.com",
+    "balance": 8214.84,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1077",
+    "name": "User 77",
+    "email": "user77@example.com",
+    "balance": 867.1,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1078",
+    "name": "User 78",
+    "email": "user78@example.com",
+    "balance": 9931.43,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1079",
+    "name": "User 79",
+    "email": "user79@example.com",
+    "balance": 8605.98,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1080",
+    "name": "User 80",
+    "email": "user80@example.com",
+    "balance": 6857.64,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1081",
+    "name": "User 81",
+    "email": "user81@example.com",
+    "balance": 8077.44,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1082",
+    "name": "User 82",
+    "email": "user82@example.com",
+    "balance": 8819.9,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1083",
+    "name": "User 83",
+    "email": "user83@example.com",
+    "balance": 9746.0,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1084",
+    "name": "User 84",
+    "email": "user84@example.com",
+    "balance": 5062.81,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1085",
+    "name": "User 85",
+    "email": "user85@example.com",
+    "balance": 9656.24,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1086",
+    "name": "User 86",
+    "email": "user86@example.com",
+    "balance": 6854.02,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1087",
+    "name": "User 87",
+    "email": "user87@example.com",
+    "balance": 7450.94,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1088",
+    "name": "User 88",
+    "email": "user88@example.com",
+    "balance": 8364.3,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1089",
+    "name": "User 89",
+    "email": "user89@example.com",
+    "balance": 9888.07,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1090",
+    "name": "User 90",
+    "email": "user90@example.com",
+    "balance": 2624.91,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1091",
+    "name": "User 91",
+    "email": "user91@example.com",
+    "balance": 3653.63,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1092",
+    "name": "User 92",
+    "email": "user92@example.com",
+    "balance": 1430.77,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1093",
+    "name": "User 93",
+    "email": "user93@example.com",
+    "balance": 7668.18,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1094",
+    "name": "User 94",
+    "email": "user94@example.com",
+    "balance": 175.62,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1095",
+    "name": "User 95",
+    "email": "user95@example.com",
+    "balance": 9359.78,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1096",
+    "name": "User 96",
+    "email": "user96@example.com",
+    "balance": 5426.48,
+    "account_status": "ACTIVE"
+  },
+  {
+    "user_id": "U1097",
+    "name": "User 97",
+    "email": "user97@example.com",
+    "balance": 5911.3,
+    "account_status": "SUSPENDED"
+  },
+  {
+    "user_id": "U1098",
+    "name": "User 98",
+    "email": "user98@example.com",
+    "balance": 6474.3,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1099",
+    "name": "User 99",
+    "email": "user99@example.com",
+    "balance": 2047.82,
+    "account_status": "CLOSED"
+  },
+  {
+    "user_id": "U1100",
+    "name": "User 100",
+    "email": "user100@example.com",
+    "balance": 7722.09,
+    "account_status": "SUSPENDED"
+  }
+]

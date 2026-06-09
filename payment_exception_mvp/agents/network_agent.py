@@ -2,12 +2,19 @@ from __future__ import annotations
 
 from typing import Any
 
+from payment_exception_mvp.agents import _specialist
 
-def analyze(agent_input: dict[str, Any]) -> dict[str, Any]:
+_ROLE = (
+    "You assess payment-rail and network failures and whether funds finality is uncertain, "
+    "recommending hold-and-reconcile until the ledger and rail state are confirmed."
+)
+
+
+def analyze(agent_input: dict[str, Any], config: Any = None) -> dict[str, Any]:
     context = agent_input["context"]
     status = context.get("status_evidence", {})
     network = context.get("network", {})
-    return {
+    baseline = {
         "agent_name": "NetworkAgent",
         "classification": "network_failure",
         "action": "HOLD_AND_RECONCILE",
@@ -21,6 +28,7 @@ def analyze(agent_input: dict[str, Any]) -> dict[str, Any]:
             f"network.rail_health_status={network.get('rail_health_status')}",
         ],
         "fallbacks_triggered": ["temporary_subagent_stub"],
-        "explanation": "Temporary network agent stub recommends hold and reconcile for network uncertainty.",
+        "explanation": "Network agent recommends hold and reconcile for network uncertainty.",
         "next_steps": ["Check rail acknowledgement and ledger state", "Do not retry until finality is known"],
     }
+    return _specialist.refine(config, agent_name="NetworkAgent", role=_ROLE, context=context, baseline=baseline)

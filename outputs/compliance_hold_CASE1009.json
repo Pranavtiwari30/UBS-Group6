@@ -1,0 +1,133 @@
+{
+  "trace_id": "trace-CASE1009",
+  "case_id": "case-PAY1184",
+  "event_id": "CASE1009",
+  "payment_id": "PAY1184",
+  "classification": "compliance_hold",
+  "selected_agent": "ComplianceAgent",
+  "decision": {
+    "action": "ESCALATE_COMPLIANCE",
+    "automation_allowed": false,
+    "confidence": 1.0,
+    "risk_level": "CRITICAL",
+    "reason_codes": [
+      "COMPLIANCE_HOLD",
+      "FAIL_CLOSED",
+      "COMPLIANCE_SIGNAL_DETECTED",
+      "SCREENING_RESULT_UNKNOWN",
+      "PENDING_COMPLIANCE_REVIEW",
+      "COMPLIANCE_SIGNAL_DETECTED"
+    ]
+  },
+  "evidence": [
+    "payment.payment_id=PAY1184",
+    "payment.amount=2772.66 EUR",
+    "payment.payment_rail=ACH",
+    "payment.current_transaction_status=REJECTED",
+    "exception.exception_code=COMPLIANCE_HOLD",
+    "exception.exception_type_hint=COMPLIANCE_HOLD",
+    "exception.severity=CRITICAL",
+    "compliance.compliance_hold_status=PENDING_REVIEW",
+    "compliance.screening_result=UNKNOWN",
+    "status.funds_movement_status=UNKNOWN",
+    "status.ledger_debit_status=UNKNOWN",
+    "status.network_finality=UNKNOWN",
+    "duplicates.duplicate_candidates=[]",
+    "history.prior_retry_events=[]"
+  ],
+  "checkpoints": [
+    {
+      "name": "request_received",
+      "status": "passed"
+    },
+    {
+      "name": "canonical_schema_validated",
+      "status": "passed"
+    },
+    {
+      "name": "payload_normalized",
+      "status": "passed"
+    },
+    {
+      "name": "idempotency_key_created",
+      "status": "passed",
+      "details": "CASE1009:PAY1184"
+    },
+    {
+      "name": "classification_started",
+      "status": "passed"
+    },
+    {
+      "name": "classification_completed",
+      "status": "passed",
+      "details": "compliance signal has highest priority"
+    },
+    {
+      "name": "agent_selected",
+      "status": "passed",
+      "details": "ComplianceAgent"
+    },
+    {
+      "name": "agent_input_sliced",
+      "status": "passed"
+    },
+    {
+      "name": "agent_input_schema_validated",
+      "status": "passed",
+      "details": "ComplianceAgent input uses scoped context keys: ['compliance', 'exception', 'payment_summary']"
+    },
+    {
+      "name": "agent_invocation_started",
+      "status": "passed"
+    },
+    {
+      "name": "agent_completed",
+      "status": "passed"
+    },
+    {
+      "name": "agent_output_validated",
+      "status": "passed"
+    },
+    {
+      "name": "safety_fallbacks_evaluated",
+      "status": "passed"
+    },
+    {
+      "name": "llm_review_started",
+      "status": "passed",
+      "details": "model=gpt-5.4"
+    },
+    {
+      "name": "llm_rerouted",
+      "status": "passed",
+      "details": "ComplianceAgent -> ComplianceAgent via ['ComplianceAgent']"
+    },
+    {
+      "name": "llm_review_completed",
+      "status": "passed",
+      "details": "tools=['get_payment_summary', 'get_status_evidence', 'get_duplicate_evidence', 'get_beneficiary_validation', 'get_compliance_flags', 'get_policy_thresholds', 'get_history', 'get_exception', 'invoke_subagent', 'submit_decision']; iterations=3"
+    },
+    {
+      "name": "safety_floor_reapplied",
+      "status": "passed"
+    },
+    {
+      "name": "final_decision_created",
+      "status": "passed"
+    },
+    {
+      "name": "response_emitted",
+      "status": "passed"
+    }
+  ],
+  "fallbacks_triggered": [
+    "llm_final_decision",
+    "compliance_signal_detected"
+  ],
+  "explanation": "Compliance signal exists, so the orchestrator forced compliance escalation.",
+  "next_steps": [
+    "Escalate to compliance operations for review",
+    "Do not release, retry, repair, or cancel based on current evidence",
+    "Reconcile payment/funds status during compliance handling because movement and finality are unknown"
+  ]
+}

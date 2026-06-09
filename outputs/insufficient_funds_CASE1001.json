@@ -1,0 +1,109 @@
+{
+  "trace_id": "trace-CASE1001",
+  "case_id": "case-PAY1009",
+  "event_id": "CASE1001",
+  "payment_id": "PAY1009",
+  "classification": "compliance_hold",
+  "selected_agent": "ComplianceAgent",
+  "decision": {
+    "action": "ESCALATE_COMPLIANCE",
+    "automation_allowed": false,
+    "confidence": 1.0,
+    "risk_level": "CRITICAL",
+    "reason_codes": [
+      "COMPLIANCE_HIT",
+      "SANCTIONS_FLAG",
+      "FAIL_CLOSED",
+      "INSUFFICIENT_FUNDS_PRESENT"
+    ]
+  },
+  "evidence": [
+    "exception.exception_code=INSUFFICIENT_FUNDS",
+    "exception.severity=CRITICAL",
+    "payment_summary.payment_id=PAY1009",
+    "payment_summary.amount=2584.04 GBP",
+    "payment_summary.payment_rail=SWIFT",
+    "payment_summary.current_transaction_status=FAILED",
+    "status.funds_movement_status=UNKNOWN",
+    "status.ledger_debit_status=UNKNOWN",
+    "status.network_finality=UNKNOWN",
+    "compliance.compliance_hold_status=NONE",
+    "compliance.screening_result=HIT",
+    "compliance.risk_flags=['sanctions_flag']",
+    "history.prior_retry_events=1"
+  ],
+  "checkpoints": [
+    {
+      "name": "request_received",
+      "status": "passed"
+    },
+    {
+      "name": "canonical_schema_validated",
+      "status": "passed"
+    },
+    {
+      "name": "payload_normalized",
+      "status": "passed"
+    },
+    {
+      "name": "idempotency_key_created",
+      "status": "passed",
+      "details": "CASE1001:PAY1009"
+    },
+    {
+      "name": "classification_started",
+      "status": "passed"
+    },
+    {
+      "name": "classification_completed",
+      "status": "passed",
+      "details": "unsupported exception type"
+    },
+    {
+      "name": "agent_selected",
+      "status": "passed",
+      "details": "ManualReviewFallback"
+    },
+    {
+      "name": "safety_fallbacks_evaluated",
+      "status": "passed"
+    },
+    {
+      "name": "llm_review_started",
+      "status": "passed",
+      "details": "model=gpt-5.4"
+    },
+    {
+      "name": "llm_rerouted",
+      "status": "passed",
+      "details": "ManualReviewFallback -> ComplianceAgent via ['ComplianceAgent']"
+    },
+    {
+      "name": "llm_review_completed",
+      "status": "passed",
+      "details": "tools=['get_exception', 'get_payment_summary', 'get_status_evidence', 'get_duplicate_evidence', 'get_beneficiary_validation', 'get_compliance_flags', 'get_policy_thresholds', 'get_history', 'invoke_subagent', 'submit_decision']; iterations=3"
+    },
+    {
+      "name": "safety_floor_reapplied",
+      "status": "passed"
+    },
+    {
+      "name": "final_decision_created",
+      "status": "passed"
+    },
+    {
+      "name": "response_emitted",
+      "status": "passed"
+    }
+  ],
+  "fallbacks_triggered": [
+    "llm_final_decision"
+  ],
+  "explanation": "I am overriding the unsupported-exception manual fallback because the evidence shows a real compliance signal. This SWIFT payment has screening_result=HIT with sanctions_flag, which requires fail-closed handling and compliance escalation regardless of the unrelated insufficient-funds exception. Unknown funds movement/finality status and a prior retry further support a conservative decision. I cannot recommend retry, repair, or any progression while a compliance signal is present.",
+  "next_steps": [
+    "Escalate to compliance operations for review",
+    "Do not retry, repair, cancel as duplicate, or otherwise progress the payment",
+    "Reconcile ledger and network status manually because funds movement and finality are unknown",
+    "Keep the payment blocked/escalated pending compliance disposition"
+  ]
+}
