@@ -1,0 +1,119 @@
+{
+  "trace_id": "trace-CASE1004",
+  "case_id": "case-PAY1025",
+  "event_id": "CASE1004",
+  "payment_id": "PAY1025",
+  "classification": "incorrect_beneficiary",
+  "selected_agent": "BeneficiaryAgent",
+  "decision": {
+    "action": "REQUEST_CLIENT_CORRECTION",
+    "automation_allowed": false,
+    "confidence": 0.89,
+    "risk_level": "MEDIUM",
+    "reason_codes": [
+      "INVALID_BENEFICIARY",
+      "CLIENT_INPUT_REQUIRED",
+      "VALIDATION_FAILED",
+      "NO_REPAIR_SUGGESTION",
+      "RETRY_ALREADY_ATTEMPTED"
+    ]
+  },
+  "evidence": [
+    "Beneficiary validation status is INVALID with failed_fields=[beneficiary] and validation_confidence=0.85.",
+    "No suggested correction is available, so beneficiary repair cannot be recommended.",
+    "Funds movement, ledger debit, and network finality are all UNKNOWN, so retry is not supported by evidence.",
+    "Prior history shows a retry event already occurred.",
+    "No duplicate candidates were found.",
+    "Compliance hold status is NONE and no risk flags are present."
+  ],
+  "checkpoints": [
+    {
+      "name": "request_received",
+      "status": "passed"
+    },
+    {
+      "name": "canonical_schema_validated",
+      "status": "passed"
+    },
+    {
+      "name": "payload_normalized",
+      "status": "passed"
+    },
+    {
+      "name": "idempotency_key_created",
+      "status": "passed",
+      "details": "CASE1004:PAY1025"
+    },
+    {
+      "name": "classification_started",
+      "status": "passed"
+    },
+    {
+      "name": "classification_completed",
+      "status": "passed",
+      "details": "beneficiary exception code matched"
+    },
+    {
+      "name": "agent_selected",
+      "status": "passed",
+      "details": "BeneficiaryAgent"
+    },
+    {
+      "name": "agent_input_sliced",
+      "status": "passed"
+    },
+    {
+      "name": "agent_input_schema_validated",
+      "status": "passed",
+      "details": "BeneficiaryAgent input uses scoped context keys: ['beneficiary', 'beneficiary_validation', 'client_contact_history', 'exception', 'payment_summary']"
+    },
+    {
+      "name": "agent_invocation_started",
+      "status": "passed"
+    },
+    {
+      "name": "agent_completed",
+      "status": "passed"
+    },
+    {
+      "name": "agent_output_validated",
+      "status": "passed"
+    },
+    {
+      "name": "safety_fallbacks_evaluated",
+      "status": "passed"
+    },
+    {
+      "name": "llm_review_started",
+      "status": "passed",
+      "details": "model=gpt-5.4"
+    },
+    {
+      "name": "llm_review_completed",
+      "status": "passed",
+      "details": "tools=['get_payment_summary', 'get_status_evidence', 'get_duplicate_evidence', 'get_beneficiary_validation', 'get_compliance_flags', 'get_policy_thresholds', 'get_history', 'get_exception', 'submit_decision']; iterations=2"
+    },
+    {
+      "name": "safety_floor_reapplied",
+      "status": "passed"
+    },
+    {
+      "name": "final_decision_created",
+      "status": "passed"
+    },
+    {
+      "name": "response_emitted",
+      "status": "passed"
+    }
+  ],
+  "fallbacks_triggered": [
+    "llm_final_decision"
+  ],
+  "explanation": "The evidence supports an incorrect beneficiary classification. Validation explicitly failed on the beneficiary, there is no repair suggestion, and confidence is well below the beneficiary repair threshold. Because funds movement and finality are unknown, and a retry has already been attempted, recommending retry would be unsupported and less conservative. No compliance or duplicate evidence changes the primary diagnosis. The appropriate recommendation is to request client correction of beneficiary details before any further processing.",
+  "next_steps": [
+    "Request corrected beneficiary details from the client.",
+    "Do not recommend automated repair because no suggested correction is available and confidence is below the repair threshold.",
+    "Do not recommend retry until corrected beneficiary details are provided and revalidated.",
+    "If corrected details are received, re-run beneficiary validation before any further action."
+  ]
+}

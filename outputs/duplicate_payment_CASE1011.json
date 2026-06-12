@@ -1,0 +1,123 @@
+{
+  "trace_id": "trace-CASE1011",
+  "case_id": "case-PAY1051",
+  "event_id": "CASE1011",
+  "payment_id": "PAY1051",
+  "classification": "compliance_hold",
+  "selected_agent": "ComplianceAgent",
+  "decision": {
+    "action": "ESCALATE_COMPLIANCE",
+    "automation_allowed": false,
+    "confidence": 1.0,
+    "risk_level": "CRITICAL",
+    "reason_codes": [
+      "COMPLIANCE_HOLD",
+      "FAIL_CLOSED",
+      "AML_RISK_FLAG",
+      "SCREENING_UNKNOWN",
+      "DUPLICATE_CANDIDATE_FOUND"
+    ]
+  },
+  "evidence": [
+    "Payment PAY1051 amount 1321.04 EUR on SEPA is currently REJECTED",
+    "Duplicate evidence shows a candidate tied to payment_id PAY1051 with fingerprint U1026:ACC904:1321.04:EUR",
+    "Compliance data shows compliance_hold_status=NONE but screening_result=UNKNOWN",
+    "Compliance risk_flags include aml_hold",
+    "Funds movement, ledger debit, and network finality are all UNKNOWN",
+    "Policy is recommendation-only and any compliance signal forces escalation"
+  ],
+  "checkpoints": [
+    {
+      "name": "request_received",
+      "status": "passed"
+    },
+    {
+      "name": "canonical_schema_validated",
+      "status": "passed"
+    },
+    {
+      "name": "payload_normalized",
+      "status": "passed"
+    },
+    {
+      "name": "idempotency_key_created",
+      "status": "passed",
+      "details": "CASE1011:PAY1051"
+    },
+    {
+      "name": "classification_started",
+      "status": "passed"
+    },
+    {
+      "name": "classification_completed",
+      "status": "passed",
+      "details": "duplicate code or candidate evidence found"
+    },
+    {
+      "name": "agent_selected",
+      "status": "passed",
+      "details": "DuplicatePaymentAgent"
+    },
+    {
+      "name": "agent_input_sliced",
+      "status": "passed"
+    },
+    {
+      "name": "agent_input_schema_validated",
+      "status": "passed",
+      "details": "DuplicatePaymentAgent input uses scoped context keys: ['beneficiary_fingerprint', 'duplicate_evidence', 'payment_summary', 'prior_retry_events']"
+    },
+    {
+      "name": "agent_invocation_started",
+      "status": "passed"
+    },
+    {
+      "name": "agent_completed",
+      "status": "passed"
+    },
+    {
+      "name": "agent_output_validated",
+      "status": "passed"
+    },
+    {
+      "name": "safety_fallbacks_evaluated",
+      "status": "passed"
+    },
+    {
+      "name": "llm_review_started",
+      "status": "passed",
+      "details": "model=gpt-5.4"
+    },
+    {
+      "name": "llm_rerouted",
+      "status": "passed",
+      "details": "DuplicatePaymentAgent -> ComplianceAgent via ['ComplianceAgent']"
+    },
+    {
+      "name": "llm_review_completed",
+      "status": "passed",
+      "details": "tools=['get_payment_summary', 'get_status_evidence', 'get_duplicate_evidence', 'get_beneficiary_validation', 'get_compliance_flags', 'get_policy_thresholds', 'get_history', 'get_exception', 'invoke_subagent', 'submit_decision']; iterations=3"
+    },
+    {
+      "name": "safety_floor_reapplied",
+      "status": "passed"
+    },
+    {
+      "name": "final_decision_created",
+      "status": "passed"
+    },
+    {
+      "name": "response_emitted",
+      "status": "passed"
+    }
+  ],
+  "fallbacks_triggered": [
+    "llm_final_decision"
+  ],
+  "explanation": "I am overriding the duplicate-cancel recommendation with a more conservative decision. While duplicate evidence exists, the payment record contains a compliance signal: aml_hold risk flag with screening result UNKNOWN. Under fail-closed handling and the system hard limits, compliance concerns take precedence and cannot be downgraded or bypassed by a duplicate-payment classification. Because funds movement and finality are also unknown, the safest final recommendation is to escalate to compliance rather than recommend cancellation.",
+  "next_steps": [
+    "Escalate to compliance operations for review",
+    "Do not recommend retry, repair, or duplicate cancellation while compliance is unresolved",
+    "Reconcile payment/finality status during compliance review because movement and network status are unknown"
+  ]
+}

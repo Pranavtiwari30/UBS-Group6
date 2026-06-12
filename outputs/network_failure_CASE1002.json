@@ -1,0 +1,121 @@
+{
+  "trace_id": "trace-CASE1002",
+  "case_id": "case-PAY1069",
+  "event_id": "CASE1002",
+  "payment_id": "PAY1069",
+  "classification": "network_failure",
+  "selected_agent": "NetworkAgent",
+  "decision": {
+    "action": "HOLD_AND_RECONCILE",
+    "automation_allowed": false,
+    "confidence": 0.97,
+    "risk_level": "HIGH",
+    "reason_codes": [
+      "NETWORK_FAILURE",
+      "RECONCILIATION_REQUIRED",
+      "FINALITY_UNKNOWN",
+      "LEDGER_STATUS_UNKNOWN",
+      "FUNDS_MOVEMENT_UNKNOWN",
+      "PRIOR_RETRY_EXISTS",
+      "ACH_PAYMENT_FAILED"
+    ]
+  },
+  "evidence": [
+    "Payment PAY1069 is ACH USD 2035.67 and current status is FAILED.",
+    "Funds movement status is UNKNOWN; ledger debit status is UNKNOWN; network finality is UNKNOWN.",
+    "No duplicate candidates were found for fingerprint U1061:ACC344:2035.67:USD.",
+    "Compliance hold status is NONE, with no risk flags; screening result is UNKNOWN but no compliance signal is present.",
+    "History shows a prior retry event on 2026-06-09T03:06:34.000627 and client contact history on 2026-06-09.",
+    "Policy safe retry threshold is 0.97; unresolved finality and prior retry do not support a retry recommendation."
+  ],
+  "checkpoints": [
+    {
+      "name": "request_received",
+      "status": "passed"
+    },
+    {
+      "name": "canonical_schema_validated",
+      "status": "passed"
+    },
+    {
+      "name": "payload_normalized",
+      "status": "passed"
+    },
+    {
+      "name": "idempotency_key_created",
+      "status": "passed",
+      "details": "CASE1002:PAY1069"
+    },
+    {
+      "name": "classification_started",
+      "status": "passed"
+    },
+    {
+      "name": "classification_completed",
+      "status": "passed",
+      "details": "network exception code matched"
+    },
+    {
+      "name": "agent_selected",
+      "status": "passed",
+      "details": "NetworkAgent"
+    },
+    {
+      "name": "agent_input_sliced",
+      "status": "passed"
+    },
+    {
+      "name": "agent_input_schema_validated",
+      "status": "passed",
+      "details": "NetworkAgent input uses scoped context keys: ['network', 'payment_summary', 'prior_retry_events', 'status_evidence']"
+    },
+    {
+      "name": "agent_invocation_started",
+      "status": "passed"
+    },
+    {
+      "name": "agent_completed",
+      "status": "passed"
+    },
+    {
+      "name": "agent_output_validated",
+      "status": "passed"
+    },
+    {
+      "name": "safety_fallbacks_evaluated",
+      "status": "passed"
+    },
+    {
+      "name": "llm_review_started",
+      "status": "passed",
+      "details": "model=gpt-5.4"
+    },
+    {
+      "name": "llm_review_completed",
+      "status": "passed",
+      "details": "tools=['get_payment_summary', 'get_status_evidence', 'get_duplicate_evidence', 'get_beneficiary_validation', 'get_compliance_flags', 'get_policy_thresholds', 'get_history', 'get_exception', 'submit_decision']; iterations=2"
+    },
+    {
+      "name": "safety_floor_reapplied",
+      "status": "passed"
+    },
+    {
+      "name": "final_decision_created",
+      "status": "passed"
+    },
+    {
+      "name": "response_emitted",
+      "status": "passed"
+    }
+  ],
+  "fallbacks_triggered": [
+    "llm_final_decision"
+  ],
+  "explanation": "The evidence supports the network failure classification and a conservative hold-and-reconcile outcome. The payment is in FAILED status, but there is no reliable confirmation of funds movement, ledger debit, or network finality. With all three statuses unknown, recommending a retry would risk duplicate movement if the original attempt partially progressed. No duplicate candidates or beneficiary issues explain the exception, and there is no active compliance hold requiring escalation. Given the prior retry and still-unresolved state, reconciliation is the safest recommendation.",
+  "next_steps": [
+    "Reconcile internal ledger and ACH network records to determine whether any debit or submission occurred.",
+    "Do not recommend additional retry until finality and funds movement are conclusively established.",
+    "If reconciliation later confirms no movement and no debit, reassess for a possible retry under policy.",
+    "Maintain monitoring of the failed payment until status certainty is obtained."
+  ]
+}

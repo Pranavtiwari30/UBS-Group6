@@ -1,0 +1,4278 @@
+[
+  {
+    "payment_id": "PAY1001",
+    "user_id": "U1014",
+    "amount": 3085.4,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC832",
+    "client_id": "C61",
+    "beneficiary_details": "Beneficiary Name 1, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:33.999605",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3258"
+    ]
+  },
+  {
+    "payment_id": "PAY1002",
+    "user_id": "U1088",
+    "amount": 499.88,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC102",
+    "client_id": "C85",
+    "beneficiary_details": "Beneficiary Name 2, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:33.999626",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3121"
+    ]
+  },
+  {
+    "payment_id": "PAY1003",
+    "user_id": "U1097",
+    "amount": 3350.65,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC965",
+    "client_id": "C13",
+    "beneficiary_details": "Beneficiary Name 3, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-20T13:06:33.999639",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5439"
+    ]
+  },
+  {
+    "payment_id": "PAY1004",
+    "user_id": "U1033",
+    "amount": 4528.35,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC188",
+    "client_id": "C92",
+    "beneficiary_details": "Beneficiary Name 4, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-14T13:06:33.999649",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7879"
+    ]
+  },
+  {
+    "payment_id": "PAY1005",
+    "user_id": "U1081",
+    "amount": 2491.65,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC114",
+    "client_id": "C72",
+    "beneficiary_details": "Beneficiary Name 5, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-19T13:06:33.999668",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9325"
+    ]
+  },
+  {
+    "payment_id": "PAY1006",
+    "user_id": "U1094",
+    "amount": 2595.71,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC979",
+    "client_id": "C35",
+    "beneficiary_details": "Beneficiary Name 6, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC44",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-09T13:06:33.999687",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9683"
+    ]
+  },
+  {
+    "payment_id": "PAY1007",
+    "user_id": "U1073",
+    "amount": 1802.82,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC712",
+    "client_id": "C18",
+    "beneficiary_details": "Beneficiary Name 7, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:33.999709",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5858"
+    ]
+  },
+  {
+    "payment_id": "PAY1008",
+    "user_id": "U1089",
+    "amount": 2144.52,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC188",
+    "client_id": "C33",
+    "beneficiary_details": "Beneficiary Name 8, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:33.999722",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4359"
+    ]
+  },
+  {
+    "payment_id": "PAY1009",
+    "user_id": "U1007",
+    "amount": 2584.04,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC253",
+    "client_id": "C66",
+    "beneficiary_details": "Beneficiary Name 9, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC52",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-28T13:06:33.999732",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T10:06:33.999736"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2994"
+    ]
+  },
+  {
+    "payment_id": "PAY1010",
+    "user_id": "U1046",
+    "amount": 2666.03,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC630",
+    "client_id": "C63",
+    "beneficiary_details": "Beneficiary Name 10, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC50",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:33.999750",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T10:06:33.999754"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3562"
+    ]
+  },
+  {
+    "payment_id": "PAY1011",
+    "user_id": "U1078",
+    "amount": 455.97,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC944",
+    "client_id": "C76",
+    "beneficiary_details": "Beneficiary Name 11, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-18T13:06:33.999768",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1982"
+    ]
+  },
+  {
+    "payment_id": "PAY1012",
+    "user_id": "U1077",
+    "amount": 1898.95,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC429",
+    "client_id": "C61",
+    "beneficiary_details": "Beneficiary Name 12, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-02T13:06:33.999781",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_6191"
+    ]
+  },
+  {
+    "payment_id": "PAY1013",
+    "user_id": "U1008",
+    "amount": 2504.77,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC825",
+    "client_id": "C74",
+    "beneficiary_details": "Beneficiary Name 13, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:33.999789",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7902"
+    ]
+  },
+  {
+    "payment_id": "PAY1014",
+    "user_id": "U1012",
+    "amount": 2297.12,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC829",
+    "client_id": "C83",
+    "beneficiary_details": "Beneficiary Name 14, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-22T13:06:33.999798",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_7579"
+    ]
+  },
+  {
+    "payment_id": "PAY1015",
+    "user_id": "U1098",
+    "amount": 788.14,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC544",
+    "client_id": "C66",
+    "beneficiary_details": "Beneficiary Name 15, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-10T13:06:33.999811",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5522"
+    ]
+  },
+  {
+    "payment_id": "PAY1016",
+    "user_id": "U1053",
+    "amount": 3896.62,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC846",
+    "client_id": "C32",
+    "beneficiary_details": "Beneficiary Name 16, Bank 3",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-17T13:06:33.999821",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9314"
+    ]
+  },
+  {
+    "payment_id": "PAY1017",
+    "user_id": "U1026",
+    "amount": 4047.1,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC422",
+    "client_id": "C89",
+    "beneficiary_details": "Beneficiary Name 17, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:33.999833",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_6120"
+    ]
+  },
+  {
+    "payment_id": "PAY1018",
+    "user_id": "U1077",
+    "amount": 4501.26,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC683",
+    "client_id": "C69",
+    "beneficiary_details": "Beneficiary Name 18, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-30T13:06:33.999842",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_4358"
+    ]
+  },
+  {
+    "payment_id": "PAY1019",
+    "user_id": "U1039",
+    "amount": 3064.73,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC409",
+    "client_id": "C25",
+    "beneficiary_details": "Beneficiary Name 19, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-01T13:06:33.999857",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_1422"
+    ]
+  },
+  {
+    "payment_id": "PAY1020",
+    "user_id": "U1048",
+    "amount": 4151.87,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC945",
+    "client_id": "C29",
+    "beneficiary_details": "Beneficiary Name 20, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-02T13:06:33.999869",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2773"
+    ]
+  },
+  {
+    "payment_id": "PAY1021",
+    "user_id": "U1007",
+    "amount": 2107.56,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC792",
+    "client_id": "C34",
+    "beneficiary_details": "Beneficiary Name 21, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-08T13:06:33.999879",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7873"
+    ]
+  },
+  {
+    "payment_id": "PAY1022",
+    "user_id": "U1096",
+    "amount": 2041.48,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC866",
+    "client_id": "C51",
+    "beneficiary_details": "Beneficiary Name 22, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC69",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-18T13:06:33.999892",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T02:06:33.999896"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7211"
+    ]
+  },
+  {
+    "payment_id": "PAY1023",
+    "user_id": "U1073",
+    "amount": 2418.59,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC869",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 23, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:33.999909",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7019"
+    ]
+  },
+  {
+    "payment_id": "PAY1024",
+    "user_id": "U1029",
+    "amount": 3102.03,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC893",
+    "client_id": "C41",
+    "beneficiary_details": "Beneficiary Name 24, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-21T13:06:33.999921",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5557"
+    ]
+  },
+  {
+    "payment_id": "PAY1025",
+    "user_id": "U1011",
+    "amount": 3338.56,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC500",
+    "client_id": "C21",
+    "beneficiary_details": "Beneficiary Name 25, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC90",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-10T13:06:33.999932",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T06:06:33.999935"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9404"
+    ]
+  },
+  {
+    "payment_id": "PAY1026",
+    "user_id": "U1008",
+    "amount": 1463.18,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC430",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 26, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-20T13:06:33.999946",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8418"
+    ]
+  },
+  {
+    "payment_id": "PAY1027",
+    "user_id": "U1093",
+    "amount": 3785.56,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC679",
+    "client_id": "C87",
+    "beneficiary_details": "Beneficiary Name 27, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-25T13:06:33.999955",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7407"
+    ]
+  },
+  {
+    "payment_id": "PAY1028",
+    "user_id": "U1062",
+    "amount": 157.43,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC680",
+    "client_id": "C32",
+    "beneficiary_details": "Beneficiary Name 28, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:33.999963",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8402"
+    ]
+  },
+  {
+    "payment_id": "PAY1029",
+    "user_id": "U1031",
+    "amount": 1880.63,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC512",
+    "client_id": "C52",
+    "beneficiary_details": "Beneficiary Name 29, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC53",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-14T13:06:33.999978",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T19:06:33.999982"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3988"
+    ]
+  },
+  {
+    "payment_id": "PAY1030",
+    "user_id": "U1079",
+    "amount": 1420.62,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC580",
+    "client_id": "C76",
+    "beneficiary_details": "Beneficiary Name 30, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC45",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-29T13:06:33.999992",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T08:06:33.999996"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6264"
+    ]
+  },
+  {
+    "payment_id": "PAY1031",
+    "user_id": "U1091",
+    "amount": 4137.6,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC668",
+    "client_id": "C95",
+    "beneficiary_details": "Beneficiary Name 31, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-09T13:06:34.000009",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_1304"
+    ]
+  },
+  {
+    "payment_id": "PAY1032",
+    "user_id": "U1062",
+    "amount": 3383.96,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC864",
+    "client_id": "C92",
+    "beneficiary_details": "Beneficiary Name 32, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-20T13:06:34.000022",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6746"
+    ]
+  },
+  {
+    "payment_id": "PAY1033",
+    "user_id": "U1023",
+    "amount": 2268.74,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC670",
+    "client_id": "C49",
+    "beneficiary_details": "Beneficiary Name 33, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-14T13:06:34.000034",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_1348"
+    ]
+  },
+  {
+    "payment_id": "PAY1034",
+    "user_id": "U1001",
+    "amount": 2716.78,
+    "currency": "USD",
+    "status": "REJECTED",
+    "beneficiary": "ACC546",
+    "client_id": "C40",
+    "beneficiary_details": "Beneficiary Name 34, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC28",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-14T13:06:34.000043",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3695"
+    ]
+  },
+  {
+    "payment_id": "PAY1035",
+    "user_id": "U1034",
+    "amount": 2419.92,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC983",
+    "client_id": "C63",
+    "beneficiary_details": "Beneficiary Name 35, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-11T13:06:34.000050",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6442"
+    ]
+  },
+  {
+    "payment_id": "PAY1036",
+    "user_id": "U1057",
+    "amount": 2411.41,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC460",
+    "client_id": "C51",
+    "beneficiary_details": "Beneficiary Name 36, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-04T13:06:34.000063",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9469"
+    ]
+  },
+  {
+    "payment_id": "PAY1037",
+    "user_id": "U1079",
+    "amount": 3378.88,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC402",
+    "client_id": "C61",
+    "beneficiary_details": "Beneficiary Name 37, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-07T13:06:34.000070",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7402"
+    ]
+  },
+  {
+    "payment_id": "PAY1038",
+    "user_id": "U1014",
+    "amount": 1746.75,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC945",
+    "client_id": "C55",
+    "beneficiary_details": "Beneficiary Name 38, Bank 1",
+    "payment_rail": "ACH",
+    "exception_code": "EXC42",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:34.000078",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T01:06:34.000082"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3972"
+    ]
+  },
+  {
+    "payment_id": "PAY1039",
+    "user_id": "U1030",
+    "amount": 2397.54,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC155",
+    "client_id": "C25",
+    "beneficiary_details": "Beneficiary Name 39, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-05T13:06:34.000097",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7266"
+    ]
+  },
+  {
+    "payment_id": "PAY1040",
+    "user_id": "U1091",
+    "amount": 3455.69,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC827",
+    "client_id": "C82",
+    "beneficiary_details": "Beneficiary Name 40, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC24",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-11T13:06:34.000105",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T05:06:34.000109"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_7938"
+    ]
+  },
+  {
+    "payment_id": "PAY1041",
+    "user_id": "U1034",
+    "amount": 4124.5,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC970",
+    "client_id": "C12",
+    "beneficiary_details": "Beneficiary Name 41, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": "EXC98",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-21T13:06:34.000118",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_2449"
+    ]
+  },
+  {
+    "payment_id": "PAY1042",
+    "user_id": "U1041",
+    "amount": 3489.81,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC972",
+    "client_id": "C46",
+    "beneficiary_details": "Beneficiary Name 42, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-29T13:06:34.000126",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T04:06:34.000129"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5712"
+    ]
+  },
+  {
+    "payment_id": "PAY1043",
+    "user_id": "U1099",
+    "amount": 4848.23,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC370",
+    "client_id": "C22",
+    "beneficiary_details": "Beneficiary Name 43, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-08T13:06:34.000144",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7178"
+    ]
+  },
+  {
+    "payment_id": "PAY1044",
+    "user_id": "U1079",
+    "amount": 597.68,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC534",
+    "client_id": "C43",
+    "beneficiary_details": "Beneficiary Name 44, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-31T13:06:34.000157",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8399"
+    ]
+  },
+  {
+    "payment_id": "PAY1045",
+    "user_id": "U1024",
+    "amount": 3323.63,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC837",
+    "client_id": "C98",
+    "beneficiary_details": "Beneficiary Name 45, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-17T13:06:34.000164",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3393"
+    ]
+  },
+  {
+    "payment_id": "PAY1046",
+    "user_id": "U1051",
+    "amount": 3305.62,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC843",
+    "client_id": "C33",
+    "beneficiary_details": "Beneficiary Name 46, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC50",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-26T13:06:34.000179",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T11:06:34.000182"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6753"
+    ]
+  },
+  {
+    "payment_id": "PAY1047",
+    "user_id": "U1062",
+    "amount": 3445.22,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC523",
+    "client_id": "C28",
+    "beneficiary_details": "Beneficiary Name 47, Bank 1",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-14T13:06:34.000350",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2353"
+    ]
+  },
+  {
+    "payment_id": "PAY1048",
+    "user_id": "U1016",
+    "amount": 2217.26,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC687",
+    "client_id": "C69",
+    "beneficiary_details": "Beneficiary Name 48, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-07T13:06:34.000366",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7351"
+    ]
+  },
+  {
+    "payment_id": "PAY1049",
+    "user_id": "U1057",
+    "amount": 2892.13,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC176",
+    "client_id": "C13",
+    "beneficiary_details": "Beneficiary Name 49, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC32",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-26T13:06:34.000386",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T14:06:34.000390"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2834"
+    ]
+  },
+  {
+    "payment_id": "PAY1050",
+    "user_id": "U1097",
+    "amount": 1213.76,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC167",
+    "client_id": "C17",
+    "beneficiary_details": "Beneficiary Name 50, Bank 2",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-28T13:06:34.000404",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4709"
+    ]
+  },
+  {
+    "payment_id": "PAY1051",
+    "user_id": "U1026",
+    "amount": 1321.04,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC904",
+    "client_id": "C69",
+    "beneficiary_details": "Beneficiary Name 51, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC24",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-19T13:06:34.000417",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_1110"
+    ]
+  },
+  {
+    "payment_id": "PAY1052",
+    "user_id": "U1025",
+    "amount": 4599.26,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC205",
+    "client_id": "C29",
+    "beneficiary_details": "Beneficiary Name 52, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:34.000426",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_2382"
+    ]
+  },
+  {
+    "payment_id": "PAY1053",
+    "user_id": "U1091",
+    "amount": 234.48,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC685",
+    "client_id": "C11",
+    "beneficiary_details": "Beneficiary Name 53, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-11T13:06:34.000434",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2723"
+    ]
+  },
+  {
+    "payment_id": "PAY1054",
+    "user_id": "U1055",
+    "amount": 4156.59,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC979",
+    "client_id": "C53",
+    "beneficiary_details": "Beneficiary Name 54, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC96",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-21T13:06:34.000457",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4434"
+    ]
+  },
+  {
+    "payment_id": "PAY1055",
+    "user_id": "U1097",
+    "amount": 3788.61,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC427",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 55, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC72",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-20T13:06:34.000473",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T21:06:34.000476"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1593"
+    ]
+  },
+  {
+    "payment_id": "PAY1056",
+    "user_id": "U1061",
+    "amount": 4558.77,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC710",
+    "client_id": "C87",
+    "beneficiary_details": "Beneficiary Name 56, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-21T13:06:34.000485",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3611"
+    ]
+  },
+  {
+    "payment_id": "PAY1057",
+    "user_id": "U1012",
+    "amount": 1689.33,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC947",
+    "client_id": "C89",
+    "beneficiary_details": "Beneficiary Name 57, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-03T13:06:34.000493",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2485"
+    ]
+  },
+  {
+    "payment_id": "PAY1058",
+    "user_id": "U1092",
+    "amount": 2014.63,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC244",
+    "client_id": "C26",
+    "beneficiary_details": "Beneficiary Name 58, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-26T13:06:34.000501",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4590"
+    ]
+  },
+  {
+    "payment_id": "PAY1059",
+    "user_id": "U1096",
+    "amount": 373.47,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC481",
+    "client_id": "C40",
+    "beneficiary_details": "Beneficiary Name 59, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-04T13:06:34.000510",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5968"
+    ]
+  },
+  {
+    "payment_id": "PAY1060",
+    "user_id": "U1031",
+    "amount": 4192.84,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC193",
+    "client_id": "C57",
+    "beneficiary_details": "Beneficiary Name 60, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-04T13:06:34.000523",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8608"
+    ]
+  },
+  {
+    "payment_id": "PAY1061",
+    "user_id": "U1075",
+    "amount": 3621.8,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC177",
+    "client_id": "C19",
+    "beneficiary_details": "Beneficiary Name 61, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:34.000532",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5282"
+    ]
+  },
+  {
+    "payment_id": "PAY1062",
+    "user_id": "U1059",
+    "amount": 2501.34,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC857",
+    "client_id": "C47",
+    "beneficiary_details": "Beneficiary Name 62, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC77",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-22T13:06:34.000540",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T16:06:34.000544"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3802"
+    ]
+  },
+  {
+    "payment_id": "PAY1063",
+    "user_id": "U1078",
+    "amount": 4005.89,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC165",
+    "client_id": "C63",
+    "beneficiary_details": "Beneficiary Name 63, Bank 2",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:34.000557",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_1112"
+    ]
+  },
+  {
+    "payment_id": "PAY1064",
+    "user_id": "U1026",
+    "amount": 3635.69,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC392",
+    "client_id": "C10",
+    "beneficiary_details": "Beneficiary Name 64, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC22",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-09T13:06:34.000568",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6928"
+    ]
+  },
+  {
+    "payment_id": "PAY1065",
+    "user_id": "U1041",
+    "amount": 1836.66,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC687",
+    "client_id": "C94",
+    "beneficiary_details": "Beneficiary Name 65, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-18T13:06:34.000580",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3760"
+    ]
+  },
+  {
+    "payment_id": "PAY1066",
+    "user_id": "U1009",
+    "amount": 4661.57,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC283",
+    "client_id": "C34",
+    "beneficiary_details": "Beneficiary Name 66, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-18T13:06:34.000589",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4679"
+    ]
+  },
+  {
+    "payment_id": "PAY1067",
+    "user_id": "U1054",
+    "amount": 3069.74,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC529",
+    "client_id": "C30",
+    "beneficiary_details": "Beneficiary Name 67, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-28T13:06:34.000596",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6999"
+    ]
+  },
+  {
+    "payment_id": "PAY1068",
+    "user_id": "U1078",
+    "amount": 1096.37,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC197",
+    "client_id": "C45",
+    "beneficiary_details": "Beneficiary Name 68, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-09T13:06:34.000611",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8165"
+    ]
+  },
+  {
+    "payment_id": "PAY1069",
+    "user_id": "U1061",
+    "amount": 2035.67,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC344",
+    "client_id": "C93",
+    "beneficiary_details": "Beneficiary Name 69, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": "EXC44",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-30T13:06:34.000624",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T03:06:34.000627"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6801"
+    ]
+  },
+  {
+    "payment_id": "PAY1070",
+    "user_id": "U1027",
+    "amount": 2612.39,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC396",
+    "client_id": "C73",
+    "beneficiary_details": "Beneficiary Name 70, Bank 3",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-15T13:06:34.000635",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2535"
+    ]
+  },
+  {
+    "payment_id": "PAY1071",
+    "user_id": "U1062",
+    "amount": 2466.36,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC487",
+    "client_id": "C64",
+    "beneficiary_details": "Beneficiary Name 71, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": "EXC50",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-19T13:06:34.000647",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6373"
+    ]
+  },
+  {
+    "payment_id": "PAY1072",
+    "user_id": "U1094",
+    "amount": 3472.59,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC759",
+    "client_id": "C25",
+    "beneficiary_details": "Beneficiary Name 72, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC36",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-26T13:06:34.000659",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T14:06:34.000663"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_2768"
+    ]
+  },
+  {
+    "payment_id": "PAY1073",
+    "user_id": "U1036",
+    "amount": 980.01,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC289",
+    "client_id": "C54",
+    "beneficiary_details": "Beneficiary Name 73, Bank 2",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-02T13:06:34.000671",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_4607"
+    ]
+  },
+  {
+    "payment_id": "PAY1074",
+    "user_id": "U1098",
+    "amount": 1546.94,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC193",
+    "client_id": "C67",
+    "beneficiary_details": "Beneficiary Name 74, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-27T13:06:34.000686",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9261"
+    ]
+  },
+  {
+    "payment_id": "PAY1075",
+    "user_id": "U1078",
+    "amount": 3753.34,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC625",
+    "client_id": "C79",
+    "beneficiary_details": "Beneficiary Name 75, Bank 3",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-27T13:06:34.000698",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9286"
+    ]
+  },
+  {
+    "payment_id": "PAY1076",
+    "user_id": "U1092",
+    "amount": 1765.87,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC491",
+    "client_id": "C33",
+    "beneficiary_details": "Beneficiary Name 76, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC55",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-25T13:06:34.000705",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T17:06:34.000709"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5008"
+    ]
+  },
+  {
+    "payment_id": "PAY1077",
+    "user_id": "U1057",
+    "amount": 2659.31,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC634",
+    "client_id": "C59",
+    "beneficiary_details": "Beneficiary Name 77, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-18T13:06:34.000720",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8539"
+    ]
+  },
+  {
+    "payment_id": "PAY1078",
+    "user_id": "U1033",
+    "amount": 3555.22,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC634",
+    "client_id": "C27",
+    "beneficiary_details": "Beneficiary Name 78, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-04T13:06:34.000733",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2709"
+    ]
+  },
+  {
+    "payment_id": "PAY1079",
+    "user_id": "U1059",
+    "amount": 2626.75,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC667",
+    "client_id": "C83",
+    "beneficiary_details": "Beneficiary Name 79, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-12T13:06:34.000740",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5498"
+    ]
+  },
+  {
+    "payment_id": "PAY1080",
+    "user_id": "U1096",
+    "amount": 1630.37,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC892",
+    "client_id": "C98",
+    "beneficiary_details": "Beneficiary Name 80, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-31T13:06:34.000748",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2895"
+    ]
+  },
+  {
+    "payment_id": "PAY1081",
+    "user_id": "U1028",
+    "amount": 743.18,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC358",
+    "client_id": "C74",
+    "beneficiary_details": "Beneficiary Name 81, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-02T13:06:34.000756",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2044"
+    ]
+  },
+  {
+    "payment_id": "PAY1082",
+    "user_id": "U1050",
+    "amount": 3747.65,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC977",
+    "client_id": "C90",
+    "beneficiary_details": "Beneficiary Name 82, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-31T13:06:34.000768",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_1147"
+    ]
+  },
+  {
+    "payment_id": "PAY1083",
+    "user_id": "U1044",
+    "amount": 1741.91,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC500",
+    "client_id": "C51",
+    "beneficiary_details": "Beneficiary Name 83, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-12T13:06:34.000776",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_4658"
+    ]
+  },
+  {
+    "payment_id": "PAY1084",
+    "user_id": "U1021",
+    "amount": 2823.47,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC441",
+    "client_id": "C59",
+    "beneficiary_details": "Beneficiary Name 84, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC95",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-13T13:06:34.000786",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T12:06:34.000789"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4618"
+    ]
+  },
+  {
+    "payment_id": "PAY1085",
+    "user_id": "U1069",
+    "amount": 2790.63,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC638",
+    "client_id": "C89",
+    "beneficiary_details": "Beneficiary Name 85, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-14T13:06:34.000798",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8270"
+    ]
+  },
+  {
+    "payment_id": "PAY1086",
+    "user_id": "U1055",
+    "amount": 4941.02,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC461",
+    "client_id": "C14",
+    "beneficiary_details": "Beneficiary Name 86, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-04T13:06:34.000809",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3178"
+    ]
+  },
+  {
+    "payment_id": "PAY1087",
+    "user_id": "U1061",
+    "amount": 2314.59,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC187",
+    "client_id": "C94",
+    "beneficiary_details": "Beneficiary Name 87, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-30T13:06:34.000817",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1559"
+    ]
+  },
+  {
+    "payment_id": "PAY1088",
+    "user_id": "U1023",
+    "amount": 798.28,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC493",
+    "client_id": "C75",
+    "beneficiary_details": "Beneficiary Name 88, Bank 2",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-01T13:06:34.000831",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_7420"
+    ]
+  },
+  {
+    "payment_id": "PAY1089",
+    "user_id": "U1060",
+    "amount": 2814.31,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC554",
+    "client_id": "C13",
+    "beneficiary_details": "Beneficiary Name 89, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-10T13:06:34.000844",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7824"
+    ]
+  },
+  {
+    "payment_id": "PAY1090",
+    "user_id": "U1007",
+    "amount": 4460.46,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC568",
+    "client_id": "C25",
+    "beneficiary_details": "Beneficiary Name 90, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-31T13:06:34.000856",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_4773"
+    ]
+  },
+  {
+    "payment_id": "PAY1091",
+    "user_id": "U1040",
+    "amount": 1669.53,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC447",
+    "client_id": "C79",
+    "beneficiary_details": "Beneficiary Name 91, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-05T13:06:34.000868",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8941"
+    ]
+  },
+  {
+    "payment_id": "PAY1092",
+    "user_id": "U1097",
+    "amount": 544.22,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC556",
+    "client_id": "C90",
+    "beneficiary_details": "Beneficiary Name 92, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:34.000876",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_5364"
+    ]
+  },
+  {
+    "payment_id": "PAY1093",
+    "user_id": "U1036",
+    "amount": 2576.12,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC624",
+    "client_id": "C90",
+    "beneficiary_details": "Beneficiary Name 93, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC78",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-24T13:06:34.000888",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T17:06:34.000892"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8810"
+    ]
+  },
+  {
+    "payment_id": "PAY1094",
+    "user_id": "U1037",
+    "amount": 921.99,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC178",
+    "client_id": "C57",
+    "beneficiary_details": "Beneficiary Name 94, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC59",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-03T13:06:34.000902",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T15:06:34.000906"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_7635"
+    ]
+  },
+  {
+    "payment_id": "PAY1095",
+    "user_id": "U1034",
+    "amount": 1750.62,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC120",
+    "client_id": "C82",
+    "beneficiary_details": "Beneficiary Name 95, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-09T13:06:34.000914",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2899"
+    ]
+  },
+  {
+    "payment_id": "PAY1096",
+    "user_id": "U1090",
+    "amount": 1211.79,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC214",
+    "client_id": "C93",
+    "beneficiary_details": "Beneficiary Name 96, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-15T13:06:34.000922",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3644"
+    ]
+  },
+  {
+    "payment_id": "PAY1097",
+    "user_id": "U1027",
+    "amount": 914.82,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC404",
+    "client_id": "C98",
+    "beneficiary_details": "Beneficiary Name 97, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-05T13:06:34.000929",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8192"
+    ]
+  },
+  {
+    "payment_id": "PAY1098",
+    "user_id": "U1020",
+    "amount": 3530.25,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC303",
+    "client_id": "C66",
+    "beneficiary_details": "Beneficiary Name 98, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC31",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:34.000944",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3857"
+    ]
+  },
+  {
+    "payment_id": "PAY1099",
+    "user_id": "U1076",
+    "amount": 4158.26,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC530",
+    "client_id": "C52",
+    "beneficiary_details": "Beneficiary Name 99, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC82",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-02T13:06:34.000953",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T04:06:34.000956"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_1561"
+    ]
+  },
+  {
+    "payment_id": "PAY1100",
+    "user_id": "U1097",
+    "amount": 1371.79,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC174",
+    "client_id": "C50",
+    "beneficiary_details": "Beneficiary Name 100, Bank 1",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-21T13:06:34.000965",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6352"
+    ]
+  },
+  {
+    "payment_id": "PAY1101",
+    "user_id": "U1009",
+    "amount": 3352.07,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC566",
+    "client_id": "C83",
+    "beneficiary_details": "Beneficiary Name 101, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-06T13:06:34.000973",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8629"
+    ]
+  },
+  {
+    "payment_id": "PAY1102",
+    "user_id": "U1050",
+    "amount": 4830.71,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC517",
+    "client_id": "C29",
+    "beneficiary_details": "Beneficiary Name 102, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:34.000987",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2380"
+    ]
+  },
+  {
+    "payment_id": "PAY1103",
+    "user_id": "U1026",
+    "amount": 38.93,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC334",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 103, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-13T13:06:34.000995",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8222"
+    ]
+  },
+  {
+    "payment_id": "PAY1104",
+    "user_id": "U1050",
+    "amount": 1196.56,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC593",
+    "client_id": "C57",
+    "beneficiary_details": "Beneficiary Name 104, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-31T13:06:34.001009",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_1507"
+    ]
+  },
+  {
+    "payment_id": "PAY1105",
+    "user_id": "U1026",
+    "amount": 883.01,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC137",
+    "client_id": "C76",
+    "beneficiary_details": "Beneficiary Name 105, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-08T13:06:34.001023",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2640"
+    ]
+  },
+  {
+    "payment_id": "PAY1106",
+    "user_id": "U1095",
+    "amount": 4757.67,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC410",
+    "client_id": "C79",
+    "beneficiary_details": "Beneficiary Name 106, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC52",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-06T13:06:34.001031",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9720"
+    ]
+  },
+  {
+    "payment_id": "PAY1107",
+    "user_id": "U1052",
+    "amount": 3556.33,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC622",
+    "client_id": "C94",
+    "beneficiary_details": "Beneficiary Name 107, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-20T13:06:34.001039",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T03:06:34.001043"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7013"
+    ]
+  },
+  {
+    "payment_id": "PAY1108",
+    "user_id": "U1022",
+    "amount": 4954.71,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC966",
+    "client_id": "C53",
+    "beneficiary_details": "Beneficiary Name 108, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC66",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-10T13:06:34.001055",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T18:06:34.001059"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_9130"
+    ]
+  },
+  {
+    "payment_id": "PAY1109",
+    "user_id": "U1039",
+    "amount": 1179.75,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC467",
+    "client_id": "C29",
+    "beneficiary_details": "Beneficiary Name 109, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-08T13:06:34.001069",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_1672"
+    ]
+  },
+  {
+    "payment_id": "PAY1110",
+    "user_id": "U1008",
+    "amount": 4966.29,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC322",
+    "client_id": "C11",
+    "beneficiary_details": "Beneficiary Name 110, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-09T13:06:34.001082",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8702"
+    ]
+  },
+  {
+    "payment_id": "PAY1111",
+    "user_id": "U1035",
+    "amount": 2705.66,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC738",
+    "client_id": "C24",
+    "beneficiary_details": "Beneficiary Name 111, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-24T13:06:34.001094",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7680"
+    ]
+  },
+  {
+    "payment_id": "PAY1112",
+    "user_id": "U1008",
+    "amount": 1192.08,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC557",
+    "client_id": "C71",
+    "beneficiary_details": "Beneficiary Name 112, Bank 3",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-12T13:06:34.001106",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_5097"
+    ]
+  },
+  {
+    "payment_id": "PAY1113",
+    "user_id": "U1062",
+    "amount": 1985.28,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC617",
+    "client_id": "C27",
+    "beneficiary_details": "Beneficiary Name 113, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC46",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-04T13:06:34.001114",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T07:06:34.001117"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9996"
+    ]
+  },
+  {
+    "payment_id": "PAY1114",
+    "user_id": "U1088",
+    "amount": 2277.9,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC882",
+    "client_id": "C43",
+    "beneficiary_details": "Beneficiary Name 114, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-06T13:06:34.001128",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9706"
+    ]
+  },
+  {
+    "payment_id": "PAY1115",
+    "user_id": "U1002",
+    "amount": 3548.22,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC892",
+    "client_id": "C59",
+    "beneficiary_details": "Beneficiary Name 115, Bank 3",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-17T13:06:34.001142",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3831"
+    ]
+  },
+  {
+    "payment_id": "PAY1116",
+    "user_id": "U1084",
+    "amount": 2820.42,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC680",
+    "client_id": "C15",
+    "beneficiary_details": "Beneficiary Name 116, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC70",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-31T13:06:34.001152",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T03:06:34.001155"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9402"
+    ]
+  },
+  {
+    "payment_id": "PAY1117",
+    "user_id": "U1050",
+    "amount": 1762.84,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC597",
+    "client_id": "C91",
+    "beneficiary_details": "Beneficiary Name 117, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-18T13:06:34.001164",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7452"
+    ]
+  },
+  {
+    "payment_id": "PAY1118",
+    "user_id": "U1086",
+    "amount": 2667.19,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC541",
+    "client_id": "C12",
+    "beneficiary_details": "Beneficiary Name 118, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-31T13:06:34.001176",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8910"
+    ]
+  },
+  {
+    "payment_id": "PAY1119",
+    "user_id": "U1024",
+    "amount": 735.9,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC119",
+    "client_id": "C41",
+    "beneficiary_details": "Beneficiary Name 119, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-29T13:06:34.001190",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6760"
+    ]
+  },
+  {
+    "payment_id": "PAY1120",
+    "user_id": "U1030",
+    "amount": 1332.84,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC378",
+    "client_id": "C91",
+    "beneficiary_details": "Beneficiary Name 120, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:34.001202",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_2791"
+    ]
+  },
+  {
+    "payment_id": "PAY1121",
+    "user_id": "U1065",
+    "amount": 3672.4,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC218",
+    "client_id": "C19",
+    "beneficiary_details": "Beneficiary Name 121, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC72",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-12T13:06:34.001215",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_7529"
+    ]
+  },
+  {
+    "payment_id": "PAY1122",
+    "user_id": "U1068",
+    "amount": 3719.76,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC957",
+    "client_id": "C21",
+    "beneficiary_details": "Beneficiary Name 122, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": "EXC15",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-27T13:06:34.001224",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_4029"
+    ]
+  },
+  {
+    "payment_id": "PAY1123",
+    "user_id": "U1061",
+    "amount": 1423.33,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC450",
+    "client_id": "C55",
+    "beneficiary_details": "Beneficiary Name 123, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-18T13:06:34.001236",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_3952"
+    ]
+  },
+  {
+    "payment_id": "PAY1124",
+    "user_id": "U1024",
+    "amount": 2927.35,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC349",
+    "client_id": "C96",
+    "beneficiary_details": "Beneficiary Name 124, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-07T13:06:34.001250",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3279"
+    ]
+  },
+  {
+    "payment_id": "PAY1125",
+    "user_id": "U1070",
+    "amount": 110.71,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC485",
+    "client_id": "C88",
+    "beneficiary_details": "Beneficiary Name 125, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC56",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-24T13:06:34.001264",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T23:06:34.001268"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_9095"
+    ]
+  },
+  {
+    "payment_id": "PAY1126",
+    "user_id": "U1004",
+    "amount": 3533.89,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC222",
+    "client_id": "C66",
+    "beneficiary_details": "Beneficiary Name 126, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-10T13:06:34.001280",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7919"
+    ]
+  },
+  {
+    "payment_id": "PAY1127",
+    "user_id": "U1099",
+    "amount": 876.75,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC871",
+    "client_id": "C26",
+    "beneficiary_details": "Beneficiary Name 127, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC59",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-09T13:06:34.001288",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7468"
+    ]
+  },
+  {
+    "payment_id": "PAY1128",
+    "user_id": "U1084",
+    "amount": 2572.26,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC584",
+    "client_id": "C61",
+    "beneficiary_details": "Beneficiary Name 128, Bank 2",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-13T13:06:34.001300",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8729"
+    ]
+  },
+  {
+    "payment_id": "PAY1129",
+    "user_id": "U1075",
+    "amount": 2855.3,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC137",
+    "client_id": "C67",
+    "beneficiary_details": "Beneficiary Name 129, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC49",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-23T13:06:34.001315",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T04:06:34.001318"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6658"
+    ]
+  },
+  {
+    "payment_id": "PAY1130",
+    "user_id": "U1029",
+    "amount": 4134.35,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC606",
+    "client_id": "C76",
+    "beneficiary_details": "Beneficiary Name 130, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-21T13:06:34.001331",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6397"
+    ]
+  },
+  {
+    "payment_id": "PAY1131",
+    "user_id": "U1016",
+    "amount": 1200.26,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC841",
+    "client_id": "C31",
+    "beneficiary_details": "Beneficiary Name 131, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-08T13:06:34.001341",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_1755"
+    ]
+  },
+  {
+    "payment_id": "PAY1132",
+    "user_id": "U1029",
+    "amount": 4522.07,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC145",
+    "client_id": "C80",
+    "beneficiary_details": "Beneficiary Name 132, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC98",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-26T13:06:34.001349",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T16:06:34.001353"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5405"
+    ]
+  },
+  {
+    "payment_id": "PAY1133",
+    "user_id": "U1100",
+    "amount": 3605.48,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC646",
+    "client_id": "C71",
+    "beneficiary_details": "Beneficiary Name 133, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC97",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:34.001365",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T07:06:34.001368"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1668"
+    ]
+  },
+  {
+    "payment_id": "PAY1134",
+    "user_id": "U1047",
+    "amount": 4782.57,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC986",
+    "client_id": "C24",
+    "beneficiary_details": "Beneficiary Name 134, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-13T13:06:34.001383",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_3535"
+    ]
+  },
+  {
+    "payment_id": "PAY1135",
+    "user_id": "U1071",
+    "amount": 2224.44,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC533",
+    "client_id": "C55",
+    "beneficiary_details": "Beneficiary Name 135, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-15T13:06:34.001396",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8538"
+    ]
+  },
+  {
+    "payment_id": "PAY1136",
+    "user_id": "U1035",
+    "amount": 611.27,
+    "currency": "USD",
+    "status": "REJECTED",
+    "beneficiary": "ACC841",
+    "client_id": "C92",
+    "beneficiary_details": "Beneficiary Name 136, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC14",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-22T13:06:34.001408",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_4492"
+    ]
+  },
+  {
+    "payment_id": "PAY1137",
+    "user_id": "U1050",
+    "amount": 2748.12,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC587",
+    "client_id": "C28",
+    "beneficiary_details": "Beneficiary Name 137, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-20T13:06:34.001417",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9822"
+    ]
+  },
+  {
+    "payment_id": "PAY1138",
+    "user_id": "U1067",
+    "amount": 3888.04,
+    "currency": "EUR",
+    "status": "PENDING",
+    "beneficiary": "ACC157",
+    "client_id": "C80",
+    "beneficiary_details": "Beneficiary Name 138, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-27T13:06:34.001431",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_3220"
+    ]
+  },
+  {
+    "payment_id": "PAY1139",
+    "user_id": "U1036",
+    "amount": 1236.61,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC647",
+    "client_id": "C28",
+    "beneficiary_details": "Beneficiary Name 139, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": "EXC51",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-08T13:06:34.001439",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T09:06:34.001442"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6606"
+    ]
+  },
+  {
+    "payment_id": "PAY1140",
+    "user_id": "U1094",
+    "amount": 999.24,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC938",
+    "client_id": "C73",
+    "beneficiary_details": "Beneficiary Name 140, Bank 1",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-15T13:06:34.001463",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2696"
+    ]
+  },
+  {
+    "payment_id": "PAY1141",
+    "user_id": "U1071",
+    "amount": 3378.2,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC305",
+    "client_id": "C64",
+    "beneficiary_details": "Beneficiary Name 141, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-12T13:06:34.001477",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_6773"
+    ]
+  },
+  {
+    "payment_id": "PAY1142",
+    "user_id": "U1072",
+    "amount": 3628.1,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC638",
+    "client_id": "C76",
+    "beneficiary_details": "Beneficiary Name 142, Bank 1",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-21T13:06:34.001485",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_5357"
+    ]
+  },
+  {
+    "payment_id": "PAY1143",
+    "user_id": "U1067",
+    "amount": 73.17,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC306",
+    "client_id": "C10",
+    "beneficiary_details": "Beneficiary Name 143, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": "EXC81",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-15T13:06:34.001493",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T22:06:34.001496"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7850"
+    ]
+  },
+  {
+    "payment_id": "PAY1144",
+    "user_id": "U1091",
+    "amount": 4232.41,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC777",
+    "client_id": "C19",
+    "beneficiary_details": "Beneficiary Name 144, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-11T13:06:34.001506",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8249"
+    ]
+  },
+  {
+    "payment_id": "PAY1145",
+    "user_id": "U1044",
+    "amount": 3569.18,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC832",
+    "client_id": "C80",
+    "beneficiary_details": "Beneficiary Name 145, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:34.001518",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8193"
+    ]
+  },
+  {
+    "payment_id": "PAY1146",
+    "user_id": "U1034",
+    "amount": 3009.22,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC633",
+    "client_id": "C58",
+    "beneficiary_details": "Beneficiary Name 146, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-19T13:06:34.001526",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8230"
+    ]
+  },
+  {
+    "payment_id": "PAY1147",
+    "user_id": "U1056",
+    "amount": 1442.34,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC541",
+    "client_id": "C37",
+    "beneficiary_details": "Beneficiary Name 147, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-31T13:06:34.001538",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_9203"
+    ]
+  },
+  {
+    "payment_id": "PAY1148",
+    "user_id": "U1014",
+    "amount": 1906.98,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC556",
+    "client_id": "C17",
+    "beneficiary_details": "Beneficiary Name 148, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": "EXC34",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-14T13:06:34.001551",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T09:06:34.001555"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_1059"
+    ]
+  },
+  {
+    "payment_id": "PAY1149",
+    "user_id": "U1097",
+    "amount": 2223.96,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC260",
+    "client_id": "C14",
+    "beneficiary_details": "Beneficiary Name 149, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-07T13:06:34.001566",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_6594"
+    ]
+  },
+  {
+    "payment_id": "PAY1150",
+    "user_id": "U1059",
+    "amount": 3174.45,
+    "currency": "EUR",
+    "status": "PENDING",
+    "beneficiary": "ACC279",
+    "client_id": "C53",
+    "beneficiary_details": "Beneficiary Name 150, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-21T13:06:34.001579",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9746"
+    ]
+  },
+  {
+    "payment_id": "PAY1151",
+    "user_id": "U1041",
+    "amount": 3449.45,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC620",
+    "client_id": "C34",
+    "beneficiary_details": "Beneficiary Name 151, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-30T13:06:34.001586",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6973"
+    ]
+  },
+  {
+    "payment_id": "PAY1152",
+    "user_id": "U1042",
+    "amount": 4508.63,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC204",
+    "client_id": "C96",
+    "beneficiary_details": "Beneficiary Name 152, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-17T13:06:34.001594",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T15:06:34.001598"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7779"
+    ]
+  },
+  {
+    "payment_id": "PAY1153",
+    "user_id": "U1061",
+    "amount": 3784.63,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC438",
+    "client_id": "C25",
+    "beneficiary_details": "Beneficiary Name 153, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-29T13:06:34.001610",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7482"
+    ]
+  },
+  {
+    "payment_id": "PAY1154",
+    "user_id": "U1093",
+    "amount": 307.39,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC455",
+    "client_id": "C75",
+    "beneficiary_details": "Beneficiary Name 154, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-26T13:06:34.001620",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5414"
+    ]
+  },
+  {
+    "payment_id": "PAY1155",
+    "user_id": "U1028",
+    "amount": 4700.65,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC219",
+    "client_id": "C28",
+    "beneficiary_details": "Beneficiary Name 155, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC35",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-25T13:06:34.001633",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1394"
+    ]
+  },
+  {
+    "payment_id": "PAY1156",
+    "user_id": "U1009",
+    "amount": 1660.15,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC893",
+    "client_id": "C46",
+    "beneficiary_details": "Beneficiary Name 156, Bank 5",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-01T13:06:34.001647",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8828"
+    ]
+  },
+  {
+    "payment_id": "PAY1157",
+    "user_id": "U1030",
+    "amount": 3399.75,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC257",
+    "client_id": "C72",
+    "beneficiary_details": "Beneficiary Name 157, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-27T13:06:34.001667",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5790"
+    ]
+  },
+  {
+    "payment_id": "PAY1158",
+    "user_id": "U1053",
+    "amount": 2868.16,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC105",
+    "client_id": "C98",
+    "beneficiary_details": "Beneficiary Name 158, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC68",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-16T13:06:34.001676",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T02:06:34.001679"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1602"
+    ]
+  },
+  {
+    "payment_id": "PAY1159",
+    "user_id": "U1011",
+    "amount": 2988.59,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC633",
+    "client_id": "C99",
+    "beneficiary_details": "Beneficiary Name 159, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-20T13:06:34.001691",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5256"
+    ]
+  },
+  {
+    "payment_id": "PAY1160",
+    "user_id": "U1067",
+    "amount": 569.87,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC920",
+    "client_id": "C42",
+    "beneficiary_details": "Beneficiary Name 160, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-29T13:06:34.001700",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_4688"
+    ]
+  },
+  {
+    "payment_id": "PAY1161",
+    "user_id": "U1016",
+    "amount": 3152.88,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC475",
+    "client_id": "C24",
+    "beneficiary_details": "Beneficiary Name 161, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-21T13:06:34.001708",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4944"
+    ]
+  },
+  {
+    "payment_id": "PAY1162",
+    "user_id": "U1038",
+    "amount": 3726.22,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC487",
+    "client_id": "C30",
+    "beneficiary_details": "Beneficiary Name 162, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-22T13:06:34.001720",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_3660"
+    ]
+  },
+  {
+    "payment_id": "PAY1163",
+    "user_id": "U1021",
+    "amount": 257.47,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC570",
+    "client_id": "C48",
+    "beneficiary_details": "Beneficiary Name 163, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC67",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-01T13:06:34.001729",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T18:06:34.001732"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8409"
+    ]
+  },
+  {
+    "payment_id": "PAY1164",
+    "user_id": "U1078",
+    "amount": 2127.72,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC662",
+    "client_id": "C78",
+    "beneficiary_details": "Beneficiary Name 164, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC39",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-17T13:06:34.001746",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5461"
+    ]
+  },
+  {
+    "payment_id": "PAY1165",
+    "user_id": "U1099",
+    "amount": 2594.31,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC522",
+    "client_id": "C55",
+    "beneficiary_details": "Beneficiary Name 165, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-16T13:06:34.001755",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4804"
+    ]
+  },
+  {
+    "payment_id": "PAY1166",
+    "user_id": "U1088",
+    "amount": 1212.69,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC764",
+    "client_id": "C37",
+    "beneficiary_details": "Beneficiary Name 166, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-20T13:06:34.001766",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6529"
+    ]
+  },
+  {
+    "payment_id": "PAY1167",
+    "user_id": "U1074",
+    "amount": 4219.38,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC287",
+    "client_id": "C31",
+    "beneficiary_details": "Beneficiary Name 167, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC83",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-16T13:06:34.001775",
+    "prior_retry_events": [
+      "Retry at 2026-06-08T17:06:34.001778"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1203"
+    ]
+  },
+  {
+    "payment_id": "PAY1168",
+    "user_id": "U1031",
+    "amount": 394.09,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC261",
+    "client_id": "C75",
+    "beneficiary_details": "Beneficiary Name 168, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC59",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-19T13:06:34.001788",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T00:06:34.001791"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_9594"
+    ]
+  },
+  {
+    "payment_id": "PAY1169",
+    "user_id": "U1031",
+    "amount": 2243.27,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC183",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 169, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-05T13:06:34.001800",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_4151"
+    ]
+  },
+  {
+    "payment_id": "PAY1170",
+    "user_id": "U1065",
+    "amount": 2491.8,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC365",
+    "client_id": "C79",
+    "beneficiary_details": "Beneficiary Name 170, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-10T13:06:34.001814",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_8415"
+    ]
+  },
+  {
+    "payment_id": "PAY1171",
+    "user_id": "U1012",
+    "amount": 1681.91,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC335",
+    "client_id": "C85",
+    "beneficiary_details": "Beneficiary Name 171, Bank 4",
+    "payment_rail": "WIRE",
+    "exception_code": "EXC91",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-21T13:06:34.001826",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T09:06:34.001830"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_3898"
+    ]
+  },
+  {
+    "payment_id": "PAY1172",
+    "user_id": "U1087",
+    "amount": 3308.3,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC839",
+    "client_id": "C11",
+    "beneficiary_details": "Beneficiary Name 172, Bank 4",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-09T13:06:34.001842",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_2107"
+    ]
+  },
+  {
+    "payment_id": "PAY1173",
+    "user_id": "U1082",
+    "amount": 1473.97,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC605",
+    "client_id": "C45",
+    "beneficiary_details": "Beneficiary Name 173, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-29T13:06:34.001850",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3578"
+    ]
+  },
+  {
+    "payment_id": "PAY1174",
+    "user_id": "U1080",
+    "amount": 3828.38,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC524",
+    "client_id": "C94",
+    "beneficiary_details": "Beneficiary Name 174, Bank 2",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-17T13:06:34.001859",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4926"
+    ]
+  },
+  {
+    "payment_id": "PAY1175",
+    "user_id": "U1054",
+    "amount": 1575.55,
+    "currency": "USD",
+    "status": "FAILED",
+    "beneficiary": "ACC264",
+    "client_id": "C44",
+    "beneficiary_details": "Beneficiary Name 175, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC87",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-11T13:06:34.001872",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T06:06:34.001875"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6232"
+    ]
+  },
+  {
+    "payment_id": "PAY1176",
+    "user_id": "U1065",
+    "amount": 1071.56,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC662",
+    "client_id": "C96",
+    "beneficiary_details": "Beneficiary Name 176, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-14T13:06:34.001883",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2879"
+    ]
+  },
+  {
+    "payment_id": "PAY1177",
+    "user_id": "U1015",
+    "amount": 1000.37,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC608",
+    "client_id": "C22",
+    "beneficiary_details": "Beneficiary Name 177, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-20T13:06:34.001890",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_3367"
+    ]
+  },
+  {
+    "payment_id": "PAY1178",
+    "user_id": "U1041",
+    "amount": 705.39,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC438",
+    "client_id": "C21",
+    "beneficiary_details": "Beneficiary Name 178, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-28T13:06:34.001897",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_1127"
+    ]
+  },
+  {
+    "payment_id": "PAY1179",
+    "user_id": "U1047",
+    "amount": 4734.1,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC484",
+    "client_id": "C12",
+    "beneficiary_details": "Beneficiary Name 179, Bank 4",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-22T13:06:34.001911",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_6757"
+    ]
+  },
+  {
+    "payment_id": "PAY1180",
+    "user_id": "U1029",
+    "amount": 593.2,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC460",
+    "client_id": "C86",
+    "beneficiary_details": "Beneficiary Name 180, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-20T13:06:34.001923",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6038"
+    ]
+  },
+  {
+    "payment_id": "PAY1181",
+    "user_id": "U1034",
+    "amount": 349.37,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC771",
+    "client_id": "C32",
+    "beneficiary_details": "Beneficiary Name 181, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-17T13:06:34.001934",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_3606"
+    ]
+  },
+  {
+    "payment_id": "PAY1182",
+    "user_id": "U1036",
+    "amount": 4722.42,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC470",
+    "client_id": "C47",
+    "beneficiary_details": "Beneficiary Name 182, Bank 1",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC24",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-26T13:06:34.001944",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T03:06:34.001947"
+    ],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_7566"
+    ]
+  },
+  {
+    "payment_id": "PAY1183",
+    "user_id": "U1007",
+    "amount": 1421.73,
+    "currency": "EUR",
+    "status": "FAILED",
+    "beneficiary": "ACC140",
+    "client_id": "C99",
+    "beneficiary_details": "Beneficiary Name 183, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC13",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-30T13:06:34.001955",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T03:06:34.001959"
+    ],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4686"
+    ]
+  },
+  {
+    "payment_id": "PAY1184",
+    "user_id": "U1004",
+    "amount": 2772.66,
+    "currency": "EUR",
+    "status": "REJECTED",
+    "beneficiary": "ACC138",
+    "client_id": "C42",
+    "beneficiary_details": "Beneficiary Name 184, Bank 1",
+    "payment_rail": "ACH",
+    "exception_code": "EXC15",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-02T13:06:34.001968",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5423"
+    ]
+  },
+  {
+    "payment_id": "PAY1185",
+    "user_id": "U1061",
+    "amount": 2102.88,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC571",
+    "client_id": "C87",
+    "beneficiary_details": "Beneficiary Name 185, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-16T13:06:34.001980",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8982"
+    ]
+  },
+  {
+    "payment_id": "PAY1186",
+    "user_id": "U1095",
+    "amount": 3378.41,
+    "currency": "GBP",
+    "status": "FAILED",
+    "beneficiary": "ACC377",
+    "client_id": "C17",
+    "beneficiary_details": "Beneficiary Name 186, Bank 5",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC19",
+    "current_transaction_status": "FAILED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-11T13:06:34.001989",
+    "prior_retry_events": [
+      "Retry at 2026-06-09T12:06:34.001992"
+    ],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_6930"
+    ]
+  },
+  {
+    "payment_id": "PAY1187",
+    "user_id": "U1023",
+    "amount": 3379.5,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC722",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 187, Bank 3",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-27T13:06:34.002004",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8910"
+    ]
+  },
+  {
+    "payment_id": "PAY1188",
+    "user_id": "U1092",
+    "amount": 3842.7,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC764",
+    "client_id": "C95",
+    "beneficiary_details": "Beneficiary Name 188, Bank 2",
+    "payment_rail": "ACH",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-23T13:06:34.002012",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_5832"
+    ]
+  },
+  {
+    "payment_id": "PAY1189",
+    "user_id": "U1049",
+    "amount": 1903.4,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC669",
+    "client_id": "C57",
+    "beneficiary_details": "Beneficiary Name 189, Bank 3",
+    "payment_rail": "SWIFT",
+    "exception_code": "EXC54",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-16T13:06:34.002020",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_8391"
+    ]
+  },
+  {
+    "payment_id": "PAY1190",
+    "user_id": "U1025",
+    "amount": 3386.51,
+    "currency": "USD",
+    "status": "PENDING",
+    "beneficiary": "ACC891",
+    "client_id": "C64",
+    "beneficiary_details": "Beneficiary Name 190, Bank 5",
+    "payment_rail": "SWIFT",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-13T13:06:34.002034",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5430"
+    ]
+  },
+  {
+    "payment_id": "PAY1191",
+    "user_id": "U1081",
+    "amount": 3183.62,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC465",
+    "client_id": "C42",
+    "beneficiary_details": "Beneficiary Name 191, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-22T13:06:34.002042",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_3026"
+    ]
+  },
+  {
+    "payment_id": "PAY1192",
+    "user_id": "U1004",
+    "amount": 2026.74,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC952",
+    "client_id": "C38",
+    "beneficiary_details": "Beneficiary Name 192, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-06-02T13:06:34.002050",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_7578"
+    ]
+  },
+  {
+    "payment_id": "PAY1193",
+    "user_id": "U1066",
+    "amount": 304.23,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC532",
+    "client_id": "C89",
+    "beneficiary_details": "Beneficiary Name 193, Bank 5",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-01T13:06:34.002062",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_7943"
+    ]
+  },
+  {
+    "payment_id": "PAY1194",
+    "user_id": "U1089",
+    "amount": 2691.97,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC413",
+    "client_id": "C50",
+    "beneficiary_details": "Beneficiary Name 194, Bank 1",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-26T13:06:34.002073",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_4665"
+    ]
+  },
+  {
+    "payment_id": "PAY1195",
+    "user_id": "U1022",
+    "amount": 158.54,
+    "currency": "EUR",
+    "status": "PENDING",
+    "beneficiary": "ACC926",
+    "client_id": "C38",
+    "beneficiary_details": "Beneficiary Name 195, Bank 2",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-06-07T13:06:34.002085",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_6391"
+    ]
+  },
+  {
+    "payment_id": "PAY1196",
+    "user_id": "U1092",
+    "amount": 525.64,
+    "currency": "EUR",
+    "status": "COMPLETED",
+    "beneficiary": "ACC606",
+    "client_id": "C85",
+    "beneficiary_details": "Beneficiary Name 196, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-12T13:06:34.002093",
+    "prior_retry_events": [],
+    "compliance_hold_status": "CLEARED",
+    "network_acknowledgements": [
+      "ACK_9744"
+    ]
+  },
+  {
+    "payment_id": "PAY1197",
+    "user_id": "U1081",
+    "amount": 4677.93,
+    "currency": "GBP",
+    "status": "PENDING",
+    "beneficiary": "ACC574",
+    "client_id": "C67",
+    "beneficiary_details": "Beneficiary Name 197, Bank 2",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "PENDING",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-26T13:06:34.002104",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_8087"
+    ]
+  },
+  {
+    "payment_id": "PAY1198",
+    "user_id": "U1028",
+    "amount": 1606.92,
+    "currency": "GBP",
+    "status": "REJECTED",
+    "beneficiary": "ACC626",
+    "client_id": "C59",
+    "beneficiary_details": "Beneficiary Name 198, Bank 4",
+    "payment_rail": "SEPA",
+    "exception_code": "EXC82",
+    "current_transaction_status": "REJECTED",
+    "client_contact_history": [],
+    "submitted_timestamp": "2026-05-26T13:06:34.002116",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_2752"
+    ]
+  },
+  {
+    "payment_id": "PAY1199",
+    "user_id": "U1036",
+    "amount": 1262.45,
+    "currency": "GBP",
+    "status": "COMPLETED",
+    "beneficiary": "ACC139",
+    "client_id": "C70",
+    "beneficiary_details": "Beneficiary Name 199, Bank 3",
+    "payment_rail": "SEPA",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-12T13:06:34.002127",
+    "prior_retry_events": [],
+    "compliance_hold_status": "PENDING_REVIEW",
+    "network_acknowledgements": [
+      "ACK_1571"
+    ]
+  },
+  {
+    "payment_id": "PAY1200",
+    "user_id": "U1071",
+    "amount": 1468.31,
+    "currency": "USD",
+    "status": "COMPLETED",
+    "beneficiary": "ACC669",
+    "client_id": "C58",
+    "beneficiary_details": "Beneficiary Name 200, Bank 1",
+    "payment_rail": "WIRE",
+    "exception_code": null,
+    "current_transaction_status": "COMPLETED",
+    "client_contact_history": [
+      "Contacted on 2026-06-09"
+    ],
+    "submitted_timestamp": "2026-05-22T13:06:34.002139",
+    "prior_retry_events": [],
+    "compliance_hold_status": "NONE",
+    "network_acknowledgements": [
+      "ACK_5252"
+    ]
+  }
+]

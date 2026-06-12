@@ -1,0 +1,84 @@
+{
+  "schema_version": "mvp-1.0",
+  "event_id": "evt-002",
+  "event_timestamp": "2026-06-09T06:01:01Z",
+  "source_system": "mock-payment-api",
+  "payment": {
+    "payment_id": "pay-002",
+    "client_id": "client-123",
+    "client_reference": "INV-7788",
+    "account_id": "acct-456",
+    "payment_rail": "UPI",
+    "payment_type": "OUTBOUND_TRANSFER",
+    "amount": 12500.5,
+    "currency": "INR",
+    "submitted_timestamp": "2026-06-09T06:01:00Z",
+    "current_transaction_status": "PENDING"
+  },
+  "beneficiary": {
+    "beneficiary_id": "bene-789",
+    "name": "Asha Rao",
+    "account_number_masked": "XXXXXX7890",
+    "ifsc": "HDFC0001234",
+    "upi_id": "asha@upi",
+    "country": "IN",
+    "beneficiary_fingerprint": "benehash-abc123"
+  },
+  "exception": {
+    "exception_code": "DUPLICATE_SUBMISSION",
+    "exception_type_hint": "DUPLICATE",
+    "description": "Possible duplicate payment submission detected",
+    "severity": "MEDIUM"
+  },
+  "status_evidence": {
+    "funds_movement_status": "UNKNOWN",
+    "ledger_debit_status": "UNKNOWN",
+    "network_finality": "UNKNOWN"
+  },
+  "beneficiary_validation": {
+    "validation_status": "PASSED",
+    "failed_fields": [],
+    "suggested_correction": null,
+    "validation_confidence": 0.99
+  },
+  "duplicate_evidence": {
+    "duplicate_candidates": [
+      {
+        "payment_id": "pay-001",
+        "submitted_timestamp": "2026-06-09T06:00:00Z",
+        "current_transaction_status": "COMPLETED",
+        "match_score": 0.98,
+        "matched_fields": [
+          "client_id",
+          "amount",
+          "currency",
+          "beneficiary_fingerprint",
+          "client_reference"
+        ]
+      }
+    ],
+    "payment_fingerprint": "client-123:12500.5:INR:benehash-abc123:INV-7788"
+  },
+  "compliance": {
+    "compliance_hold_status": "NONE",
+    "screening_result": "CLEAR",
+    "screening_reference": null,
+    "risk_flags": []
+  },
+  "network": {
+    "network_acknowledgements": [],
+    "rail_health_status": "AVAILABLE",
+    "rail_incident_id": null
+  },
+  "history": {
+    "prior_retry_events": [],
+    "client_contact_history": []
+  },
+  "policy": {
+    "automation_mode": "RECOMMENDATION_ONLY",
+    "manual_review_threshold": 0.75,
+    "safe_retry_threshold": 0.97,
+    "duplicate_cancel_threshold": 0.95,
+    "beneficiary_repair_threshold": 0.98
+  }
+}
